@@ -88,7 +88,35 @@ public class SinglyLinkedList{
         previous.next=null;
         return null;
     }
-    
+    public void pop_position(int pos){
+            ListNode current=head;
+            ListNode temp=current.next;
+            int count=0;
+        if(head==null){
+            System.out.printf("Empty");
+        }
+        else if(pos==0){
+            pop();
+        }
+        else if(temp!=null){
+            
+            while(count<pos){
+                if(count==0){
+                    temp=temp.next;    
+                }
+                else{
+                current=current.next;
+                temp=temp.next;
+                }
+                count++;
+            }
+            current.next=temp;
+        }
+        else{
+            System.out.printf("Cannot Remove Null");
+        }
+    }
+
     /* I can create as many instances of ListNode as I want, be it first, second, tenth, previous, current, next*/
     public static void main(String[] args) {
         SinglyLinkedList sll= new SinglyLinkedList();
@@ -110,6 +138,8 @@ public class SinglyLinkedList{
         System.out.printf("\nPopped out: "+sll.pop().data); 
         sll.pop_last();
         System.out.printf("\nNew List: ");
+        sll.display();
+        sll.pop_position(4);
         sll.display();
 
 
