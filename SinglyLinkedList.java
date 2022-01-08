@@ -10,7 +10,6 @@ public class SinglyLinkedList{
             this.next=null;
         }
     }
-
     public void display(){
         ListNode current =head;
         while(current !=null){
@@ -31,26 +30,66 @@ public class SinglyLinkedList{
         }
         return count;
     }
-    public void insert_at_head(int num){
+    public void push(int num){
         ListNode l1= new ListNode(num); 
         l1.next=head;
         head=l1;
     }
-
-   /* public void insert_end(int num){
-        LinkNode l2= new LinkNode(num);
+    public void push_end(int num){
+        ListNode l2= new ListNode(num);
         if(head==null){
-            l2.next=null;
             head=l2;
             return;
         }
-        
-            while(l2.next!=null){
-
-        
+        ListNode current=head;
+            while(current.next!=null){
+                current=current.next;        
         }
-    }*/
-        
+        current.next=l2;
+    }
+    public void push_mid(int node, int value){
+        ListNode l3= new ListNode(value);
+        if(head==null){
+            push(value);
+            return;
+        }else{
+            ListNode previous=head;
+            int count=1;
+            while(count<node-1){
+                previous=previous.next;
+                count++;
+                }
+            ListNode current =previous.next;
+            l3.next=current;
+            previous.next=l3;
+            }
+    }
+    public ListNode pop(){
+        if(head==null){
+            return null;
+        }
+        ListNode temp=head;
+        head=head.next;
+        temp.next=null;
+        return temp;
+
+
+    }
+    public ListNode pop_last(){
+        if(head==null){
+            return null;
+        }
+        ListNode previous=head;
+        ListNode current=previous.next;
+        while(current.next!=null){
+            current=current.next;
+            previous=previous.next;
+        }
+        previous.next=null;
+        return null;
+    }
+    
+    /* I can create as many instances of ListNode as I want, be it first, second, tenth, previous, current, next*/
     public static void main(String[] args) {
         SinglyLinkedList sll= new SinglyLinkedList();
         sll.head = new ListNode(10);
@@ -62,10 +101,16 @@ public class SinglyLinkedList{
         second.next=third;
         third.next=fourth;
         
-        sll.insert_at_head(77);
-        sll.insert_at_head(0);
+        sll.push(77);
+        sll.push(0);
+        sll.push_end(90);
+        sll.push_mid(2,67);
         sll.display();
-        System.out.printf("The Length is "+sll.length());
+        System.out.printf("The Length is: "+sll.length());
+        System.out.printf("\nPopped out: "+sll.pop().data); 
+        sll.pop_last();
+        System.out.printf("\nNew List: ");
+        sll.display();
 
 
     }
