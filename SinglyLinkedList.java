@@ -98,7 +98,7 @@ public class SinglyLinkedList{
         else if(pos==0){
             pop();
         }
-        else if(temp!=null){
+        else{
             
             while(count<pos){
                 if(count==0){
@@ -112,9 +112,8 @@ public class SinglyLinkedList{
             }
             current.next=temp;
         }
-        else{
-            System.out.printf("Cannot Remove Null");
-        }
+        
+        
     }
 
     /* I can create as many instances of ListNode as I want, be it first, second, tenth, previous, current, next*/
