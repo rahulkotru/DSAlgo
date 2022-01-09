@@ -139,6 +139,28 @@ public class SinglyLinkedList{
         }
         return previous;
     }
+    public int mid_val(){
+        if(head==null){
+            return 0;
+        }
+        else{
+            int count=0;
+            ListNode current=head;
+            ListNode nexa=head;
+            while(nexa.next!=null){
+                nexa=nexa.next;
+                count++;
+            }
+            if(count%2==0){
+                count=count/2;
+            }
+            else{
+                count=(count+1)/2;
+                
+            }
+
+        }
+    }
 
 
     /* I can create as many instances of ListNode as I want, be it first, second, tenth, previous, current, next*/
