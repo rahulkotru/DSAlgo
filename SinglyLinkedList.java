@@ -160,7 +160,7 @@ public class SinglyLinkedList{
             }
 
         }
-    }*/
+    }
 
 
     /* I can create as many instances of ListNode as I want, be it first, second, tenth, previous, current, next*/
