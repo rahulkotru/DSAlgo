@@ -156,7 +156,7 @@ public class SinglyLinkedList{
             }
             else{
                 count=(count+1)/2;
-                
+
             }
 
         }
@@ -189,7 +189,7 @@ public class SinglyLinkedList{
         sll.display();
         System.out.print("Does number exist: "+ sll.search_node(11)+'\n');
         ListNode neu= sll.reverse_list(fourth);
-        
+        implement counter one
 
 
     }
