@@ -139,7 +139,7 @@ public class SinglyLinkedList{
         }
         return previous;
     }
-    public int mid_val(){
+    /*public int mid_val(){
         if(head==null){
             return 0;
         }
@@ -155,12 +155,12 @@ public class SinglyLinkedList{
                 count=count/2;
             }
             else{
-                count=(count+1)/2;
+                count=(count
 
             }
 
         }
-    }
+    }*/
 
 
     /* I can create as many instances of ListNode as I want, be it first, second, tenth, previous, current, next*/
