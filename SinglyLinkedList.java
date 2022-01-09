@@ -115,6 +115,21 @@ public class SinglyLinkedList{
         
         
     }
+    public boolean search_node(int val){
+        ListNode current=head;
+        while(current !=null){
+            if(current.data==val){
+                return true;
+            
+            }
+            current=current.next;
+        }
+        return false;
+    }
+    public ListNode reverse_list(){
+        ListNode cu
+    }
+
 
     /* I can create as many instances of ListNode as I want, be it first, second, tenth, previous, current, next*/
     public static void main(String[] args) {
@@ -140,6 +155,7 @@ public class SinglyLinkedList{
         sll.display();
         sll.pop_position(4);
         sll.display();
+        System.out.print("Does number exist: "+ sll.search_node(11));
 
 
     }
