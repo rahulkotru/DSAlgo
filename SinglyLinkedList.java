@@ -126,7 +126,7 @@ public class SinglyLinkedList{
         }
         return false;
     }
-    public ListNode reverse_list(){
+    public ListNode reverse_list(ListNode head){
         ListNode current=head;
         ListNode previous=null;
         ListNode next=null;
@@ -135,6 +135,7 @@ public class SinglyLinkedList{
             current.next=previous;
             previous=current;
             current=next;
+            System.out.println(next.data +"-->");
         }
         return previous;
     }
@@ -164,9 +165,9 @@ public class SinglyLinkedList{
         sll.display();
         sll.pop_position(4);
         sll.display();
-        System.out.print("Does number exist: "+ sll.search_node(11));
-        sll=sll.reverse_list();
-        sll.display();
+        System.out.print("Does number exist: "+ sll.search_node(11)+'\n');
+        ListNode neu= sll.reverse_list(fourth);
+        
 
 
     }
