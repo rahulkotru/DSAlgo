@@ -139,7 +139,7 @@ public class SinglyLinkedList{
         }
         return previous;
     }
-    /*public int mid_val(){
+    public int mid_val(){
         if(head==null){
             return 0;
         }
