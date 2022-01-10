@@ -5,7 +5,8 @@
 
     Pen(String color, String type){//3 types of constructors; Non-paramaterized, parameterized 
         //Non para doesnt take or return parameters
-        //Parameterized takes parameters and initializes them to the class
+        //Parameterized takes parameters and initializes objects to the class
+        //Copy contructors in Student class
         /*  
             p1.color="Blue";  } This part is done inside the constructor itself
             p1.type="Gel";    }
@@ -27,6 +28,16 @@
  class Student{
     String name;
     int age;
+
+    Student(){
+        //Empty constructor to accomadate copy constructor
+    }
+    Student(Student s2){
+        this.name=s2.name;
+        this.age=s2.age;
+    }
+
+
     public void print_info(){
         System.out.printf(this.name);
         System.out.print("\n"+this.age);
@@ -46,6 +57,10 @@ public class OOPS{
         s1.name= "Rahul";
         s1.age= 22;
         s1.print_info();
+
+        Student s2= new Student(s1);
+        s2.print_info();
+        
     }
 
 }
