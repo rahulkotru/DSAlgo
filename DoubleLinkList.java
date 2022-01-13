@@ -53,7 +53,19 @@ public class DoubleLinkList(){
         }
         System.out.println("null");
     }
-    
+    public void insertFirst(){
+        ListNode newNode=new ListNode();
+        if(head==null){
+            tail=newNode;
+        }
+        else{
+            head.prev=newNode;
+        }
+        newNode.next=head;
+        head=newNode;
+        length++;
+
+    }
 
     public static void main(String[] args){
         DoubleLinkList dl =new DoubleLinkList();
