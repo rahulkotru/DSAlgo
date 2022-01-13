@@ -57,9 +57,12 @@ public class OOPS{
         s1.name= "Rahul";
         s1.age= 22;
         s1.print_info();
+        
 
         Student s2= new Student(s1);
         s2.print_info();
+        s2.color="Red";
+        s2.write();
         
     }
 

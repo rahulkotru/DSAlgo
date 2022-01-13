@@ -191,6 +191,7 @@ public class SinglyLinkedList{
         ListNode neu= sll.reverse_list(fourth);
         
 
+2+3
 
     }
 
