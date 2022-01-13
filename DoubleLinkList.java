@@ -30,7 +30,17 @@ public class DoubleLinkList(){
         tail=newNode;
         length++;
     }
+    public void display(){
+        if(head==null){
+            return null;
+        }
+        ListNode temp=head;
+        while(temp!=null){
+            System.out.println(temp.data+"-->");
 
+        }
+        System.out.println("null");
+    }
     
 
     public static void main(String[] args){
