@@ -3,6 +3,11 @@ public class DoubleLinkList(){
     private ListNode tail;
     private int length;
 
+    public DoubleLinkList(){
+        this.next=null;
+        this.prev=null;
+        this.length=0;
+    }
     private class ListNode(){
         private int data;
         private ListNode next;
@@ -10,9 +15,19 @@ public class DoubleLinkList(){
 
         public ListNode(int data){
             this.data=data;
-            this.next=null;
-            this.prev=null;
         }
+    }
+
+    public insertlast(int data){
 
     }
+
+    
+
+    public static void main(String[] args){
+        DoubleLinkList dl =new DoubleLinkList();
+        ListNode data1=
+    }
+
+
 }
