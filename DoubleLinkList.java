@@ -94,6 +94,22 @@ public class DoubleLinkList(){
         length--;
         return temp;
     }
+    public ListNode deleteLast(){
+        if(head==null){
+            throw new NoSuchElementException();
+        }        
+        ListNode temp=tail;
+        if(head=tail){
+            head=null;
+        }    
+        else{
+            tail.prev.next=null;
+        }
+        tail=tail.prev;
+        temp.prev=null;
+        length--;
+        return temp;
+    }
 
     public static void main(String[] args){
         DoubleLinkList dl =new DoubleLinkList();
