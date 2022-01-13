@@ -37,7 +37,19 @@ public class DoubleLinkList(){
         ListNode temp=head;
         while(temp!=null){
             System.out.println(temp.data+"-->");
+            temp = temp.next;
 
+        }
+        System.out.println("null");
+    }
+    public void displayBackward(){
+        if (tail==null){
+            return;
+        }
+        ListNode temp =tail;
+        while(temp!=null){
+            System.out.println(temp.data+"-->");
+            temp=temp.prev;
         }
         System.out.println("null");
     }
