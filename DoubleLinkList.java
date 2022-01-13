@@ -19,7 +19,16 @@ public class DoubleLinkList(){
     }
 
     public insertlast(int data){
-
+        ListNode newNode=new ListNode(data);
+        if(head==null){
+            head=newNode;
+        }
+        else{
+        tail.next=newNode;
+        }
+        newNode.prev=tail;
+        tail=newNode;
+        length++;
     }
 
     
