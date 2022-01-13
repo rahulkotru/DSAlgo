@@ -30,7 +30,7 @@ public class DoubleLinkList(){
         tail=newNode;
         length++;
     }
-    public void display(){
+    public void displayForward(){
         if(head==null){
             return null;
         }
