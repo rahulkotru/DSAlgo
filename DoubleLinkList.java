@@ -54,7 +54,7 @@ public class DoubleLinkList(){
         System.out.println("null");
     }
     public void insertFirst(int data){
-        ListNode newNode=new ListNode();
+        ListNode newNode=new ListNode(data);
         if(head==null){
             tail=newNode;
         }
@@ -67,10 +67,16 @@ public class DoubleLinkList(){
 
     }
     public void insertEnd(int data){
-        ListNode newNode=new ListNode();
+        ListNode newNode=new ListNode(data);
         if(head==null){
-            head=data
+            head=newNode;
         }
+        else{
+            tail.next=newNode;
+            newNode.prev=tail;
+        }
+        tail=newNode;
+        length++;
     }
 
     public static void main(String[] args){
