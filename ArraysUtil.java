@@ -78,9 +78,19 @@ public class ArraysUtil{
                 arr[a]=b;
             }
             if(arr[a]!=0){
-                j++;
+                a++;
             }
         }
+    }
+    public static int missingNumber(int[] arr){
+        int temp=0;
+        for(int i=0;i<arr.length;i++){
+            temp=temp+arr[i];
+        }
+        int sum=((arr.length+1)*(arr.length+2))/2;
+        System.out.println(temp+"Sum");
+        int ans=sum-temp;
+        return ans;
     }
 
     public static void main(String[] args) {
@@ -96,6 +106,8 @@ public class ArraysUtil{
         System.out.println(min);
         min=secMax(res);
         System.out.println(min);
+        min=missingNumber(newInt);
+        System.out.println("anser is : "+min);
 
 
     }
