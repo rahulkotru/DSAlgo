@@ -68,6 +68,20 @@ public class ArraysUtil{
         }
         return secmax;
     }
+    public static void zeroLast(int [] arr){
+        int a=0;
+        int b=0;
+        for (int i=0;i<arr.length;i++){
+            if(arr[i]!=0 && arr[a]==0){
+                b=arr[i];
+                arr[i]=arr[a];
+                arr[a]=b;
+            }
+            if(arr[a]!=0){
+                j++;
+            }
+        }
+    }
 
     public static void main(String[] args) {
        // ArraysUtil arr=new ArraysUtil();
