@@ -35,14 +35,38 @@ public class ArraysUtil{
             }
             return jarr;
     }
+    public static int[] revArr(int[] arr){
+        int rev[]= new int[arr.length];
+        for(int i=0;i<arr.length;i++){
+            rev[arr.length-1-i]=arr[i];
+
+        }
+        return rev;
+    }
+    public static int minVal(int[] arr){
+        int min;
+        min=arr[0];
+        for(int i=0;i<arr.length;i++){
+            if(min>arr[i]){
+                min=arr[i];
+            }
+
+        }
+        return min;
+    }
 
     public static void main(String[] args) {
        // ArraysUtil arr=new ArraysUtil();
        // arr.arrayDemo();
         int newInt[]={5,4,6,3,1};
         printArray(newInt);
-        int res[]= evenInt(newInt);
+        //int res[]= evenInt(newInt);
+        //printArray(res);
+        int res[]=revArr(newInt);
         printArray(res);
+        int min=minVal(newInt);
+        System.out.println(min);
+
 
     }
 }
