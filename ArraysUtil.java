@@ -54,6 +54,20 @@ public class ArraysUtil{
         }
         return min;
     }
+    public static int secMax(int[] arr){
+        int max=arr[0];
+        int secmax=0;
+        for (int i=0;i<arr.length;i++){
+            if(arr[i]>max){
+                secmax=max;
+                max=arr[i];
+            }
+            else if(arr[i]>secmax&&arr[i]!=max){
+                secmax=arr[i];
+            }
+        }
+        return secmax;
+    }
 
     public static void main(String[] args) {
        // ArraysUtil arr=new ArraysUtil();
@@ -65,6 +79,8 @@ public class ArraysUtil{
         int res[]=revArr(newInt);
         printArray(res);
         int min=minVal(newInt);
+        System.out.println(min);
+        min=secMax(res);
         System.out.println(min);
 
 
