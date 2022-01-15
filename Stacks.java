@@ -2,13 +2,14 @@ public class Stacks{
     private ListNode top;//Instance Variables
     private int length;
 
-    private static class ListNode(){
+    private static class ListNode{
         private int data;
         private ListNode next;
     }
 
-    public class ListNode(int data){//Constructor for LinkNode
+    public ListNode(int data){//Constructor for LinkNode
         this.data=data;
+        this.next=null;
     }
     public Stacks(){//Constructor
         top=null;
@@ -24,7 +25,16 @@ public class Stacks{
         length++;
     }
     public void pop(){
-        
+        int result =top.data;
+        length--;
+        return result;
+    }
+    
+    public static void main(String[] args) {
+        Stack newStack= new Stack();
+        newStack.push(10);
+        newStack.push(20);
+        newStack.push(44);
     }
 
 }
