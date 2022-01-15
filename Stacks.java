@@ -35,6 +35,7 @@ public class Stacks{
         newStack.push(10);
         newStack.push(20);
         newStack.push(44);
+        ]
     }
 
 }
