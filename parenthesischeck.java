@@ -11,7 +11,7 @@ public class parenthesischeck{
                     return false;
                 }
                 else{
-                    char.top = stack.peek();
+                    char top = stack.peek();
                     if((c ==')'&& top=='('|| c=='}'&& top=='{'|| c==']'&& c=='[')){
                         stack.pop();
                     }
@@ -23,8 +23,8 @@ public class parenthesischeck{
         }return stack.isEmpty();
     }
     public static void main(String[] args) {
-        String str='{}';
-        System.out.println(checkparity(str));
+        String str="{}";
+        System.out.println(str.checkparity(str));
     }
     
 }
