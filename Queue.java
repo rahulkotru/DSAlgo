@@ -3,6 +3,11 @@ public class Queue{
     private ListNode tail;//Instance Variables
     private int length;
 
+    public Queue(){
+        this.head=null;
+        this.tail=null;
+        this.length=0;
+    }
     private class ListNode{
         private int data;
         private ListNode next;
@@ -20,7 +25,7 @@ public class Queue{
         return length==0;
     }
     public void addNode(int data){
-        ListNode temp=new ListNode();
+        ListNode temp=new ListNode(data);
         if(isEmpty()){
             head=temp;
         }
@@ -32,6 +37,6 @@ public class Queue{
     }
     public static void main(String[] args) {
         Queue q= new Queue();
-        
+        q.addNode(10);
     }
 }
