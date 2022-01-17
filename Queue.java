@@ -35,8 +35,40 @@ public class Queue{
         tail=temp;
         length++;
     }
+    public void display(){
+        if(isEmpty()){
+            System.out.println("NULL");
+        }
+        else{
+            ListNode temp=head;
+            while(temp!=null){
+                System.out.print(temp.data+"-->");
+                temp=temp.next;
+            }
+            System.out.println("NULL");
+        }
+    }
+    public int deQueue(){
+        if(isEmpty()){
+            return 0;
+        }
+        else{
+            int temp=head.data;
+            head=head.next;
+            if(head==null){
+                tail=null;
+            }
+            length--;
+            return temp;
+
+        }
+    }
     public static void main(String[] args) {
         Queue q= new Queue();
         q.addNode(10);
+       // q.addNode(20);
+        q.display();
+        int y=q.deQueue();
+        q.display();
     }
 }
