@@ -15,10 +15,10 @@ def binary_search(list,target):
     return None
 
 def verify(index):
-    if index is None:
+    if index is not None:
         print("Target not found ",index)
     else:
         print("Target found")
-numbers=[1,2,3,4,5,6]
+numbers=[1,2,3,4,5,6,7]
 res=binary_search(numbers,5)
 verify(res)
