@@ -4,6 +4,7 @@ class Node:
 
     def __init__(self,data):
         self.data = data
+        
 
     def __repr__(self):
         return"<Node data:%s>" %self.data
