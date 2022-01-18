@@ -12,10 +12,10 @@ public class AddSingleList{
         }
     }
     public ListNode addList(ListNode a, ListNode b){
-        ListNode current=0;
+        ListNode current=new ListNode(0);
         ListNode dummy=current;
         int carry=0;
-        while(a.data!=null||b.data!=null){
+        while(a!=null||b!=null){
             int x= (a!=null)? a.data:0;
             int y=(b!=null)? b.data:0;
             int sum=carry+x+y;
@@ -29,10 +29,15 @@ public class AddSingleList{
                 b=b.next;
             }
             if (carry>0){
-                tail.next=new ListNode(carry);
+                dummy.next=new ListNode(carry);
             }
             
         }
         return current.next;
+    }
+
+    public static void main(String[] args) {
+        ListNode x=new ListNode();
+        x.head=new ListNode(9);
     }
 }
