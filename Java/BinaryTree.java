@@ -46,6 +46,14 @@ public class BinaryTree{
             }
         }
     }
+    public void recursiveInOrder(TreeNode root){
+        if(root==null){
+            return;
+        }
+        recursiveInOrder(root.left);
+        System.out.println(root.data+" ");
+        recursiveInOrder(root.right);
+    }
     public static void main(String[] args) {
         BinaryTree tr=new BinaryTree();
         tr.createTree();
