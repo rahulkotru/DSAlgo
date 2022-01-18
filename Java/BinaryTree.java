@@ -60,6 +60,7 @@ public class BinaryTree{
         }
         Stack<TreeNode> stack=new Stack<>();
         TreeNode temp=root;
+        System.out.println("");
         while(!stack.isEmpty()|| temp!=null){
             if(temp!=null){
                 stack.push(temp);
@@ -78,5 +79,6 @@ public class BinaryTree{
         tr.recursivePreOrder(tr.root);
         tr.iterativePreOrder(tr.root);
         tr.recursiveInOrder(tr.root);
+        tr.iterativeInOrder(tr.root);
     }
 }
