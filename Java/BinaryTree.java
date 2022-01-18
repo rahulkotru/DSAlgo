@@ -1,3 +1,4 @@
+import java.util.Stack;
 public class BinaryTree{
     private TreeNode root;
 
@@ -20,17 +21,35 @@ public class BinaryTree{
         first.right=third;
         second.left=fourth;
     }
-    public void preOrder(TreeNode root){
+    public void recursivePreOrder(TreeNode root){
         if(root==null){
             return;
         }
         System.out.println(root.data+" ");
-        preOrder(root.left);
-        preOrder(root.right);
+        recursivePreOrder(root.left);
+        recursivePreOrder(root.right);
+    }
+    public void iterativePreOrder(TreeNode root){
+        if(root==null){
+            return;
+        }
+        Stack<TreeNode> stack=new Stack<>();
+        stack.push(root);
+        while(!stack.isEmpty()){
+            TreeNode temp=stack.pop();
+            System.out.println(temp.data+" ");
+            if(temp.right !=null){
+                stack.push(temp.right);
+            }
+            if(temp.left!=null){
+                stack.push(temp.left);
+            }
+        }
     }
     public static void main(String[] args) {
         BinaryTree tr=new BinaryTree();
         tr.createTree();
-        tr.preOrder(tr.root);
+        tr.recursivePreOrder(tr.root);
+        tr.iterativePreOrder(tr.root);
     }
 }

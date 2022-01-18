@@ -14,7 +14,7 @@ public class StackReverseString{
     }
     public static void main(String[] args) {
         String str ="ABCD";
-        System.out.println("Beofre reverse "+str);
+        System.out.println("Before reverse "+str);
         System.out.println("After reverse "+reverse(str));
 
     }
