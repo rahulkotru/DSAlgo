@@ -54,6 +54,24 @@ public class BinaryTree{
         System.out.print(root.data+"--> ");
         recursiveInOrder(root.right);
     }
+    public void iterativeInOrder(TreeNode root){
+        if(root==null){
+            return;
+        }
+        Stack<TreeNode> stack=new Stack<>();
+        TreeNode temp=root;
+        while(!stack.isEmpty()|| temp!=null){
+            if(temp!=null){
+                stack.push(temp);
+                temp=temp.left;
+            }
+            else{
+                temp=stack.pop();
+                System.out.print(temp.data+"-->");
+                temp=temp.right;
+            }
+        }
+    }
     public static void main(String[] args) {
         BinaryTree tr=new BinaryTree();
         tr.createTree();
