@@ -2,13 +2,13 @@ public class AddSingleList{
     private ListNode head;
     
 
-    private class ListNode{
+    private static class ListNode{
         private int data;
-        private ListNode head;
+        private ListNode next;
 
         public ListNode(int data){
             this.data = data;
-            this.head=null;
+            this.next=null;
         }
     }
     public ListNode addList(ListNode a, ListNode b){
@@ -37,7 +37,7 @@ public class AddSingleList{
     }
 
     public static void main(String[] args) {
-        ListNode x=new ListNode();
+        AddSingleList x=new AddSingleList();
         x.head=new ListNode(9);
     }
 }
