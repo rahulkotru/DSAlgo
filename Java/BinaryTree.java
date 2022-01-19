@@ -73,6 +73,23 @@ public class BinaryTree{
             }
         }
     }
+    public void iterativePostOrder(TreeNode root){
+        if(root==null){
+            return;
+        }
+        Stack<TreeNode> stack=new Stack<>();
+        TreeNode temp=root;
+        System.out.println("");
+        
+    }
+    public void recursivePostOrder(TreeNode root){
+        if(root==null){
+            return;
+        }
+        recursivePostOrder(root.left);
+        recursivePostOrder(root.right);
+        System.out.print(root.data+" ");
+    }
     public static void main(String[] args) {
         BinaryTree tr=new BinaryTree();
         tr.createTree();
@@ -80,5 +97,6 @@ public class BinaryTree{
         tr.iterativePreOrder(tr.root);
         tr.recursiveInOrder(tr.root);
         tr.iterativeInOrder(tr.root);
+        tr.recursivePostOrder(tr.root);
     }
 }
