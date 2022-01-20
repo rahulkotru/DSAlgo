@@ -37,6 +37,12 @@ public class BinarySearchTree{
         inOrder(root.right);
     }
     public static void main(String[] args) {
-        
+        BinarySearchTree bts=new BinarySearchTree();
+        bts.insert(5);
+        bts.insert(3);
+        bts.insert(7);
+        bts.insert(1);
+
+        bts.inOrder();
     }
 }
