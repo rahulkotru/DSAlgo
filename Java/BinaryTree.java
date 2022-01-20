@@ -129,17 +129,17 @@ public class BinaryTree{
         }
         
     }
-    public static int findMax(TreeNode root){
+     static int findMax(TreeNode root){
         if(root==null){
-            return Integer.MAX_VALUE;
+            return Integer.MIN_VALUE;
         }    
         int temp=root.data;
         int left=findMax(root.left);
         int right=findMax(root.right);
-        if(temp<left){
+        if(left>temp){
             temp=left;
         }
-        if(temp<right){
+        if(right>temp){
             temp=right;
         }
         return temp;
@@ -154,5 +154,7 @@ public class BinaryTree{
         tr.recursivePostOrder(tr.root);
         tr.iterativePostOrder(tr.root);
         levelOrder(tr.root);
+        int small=findMax(tr.root);
+        System.out.println(small+"l");
     }
 }
