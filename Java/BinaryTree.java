@@ -129,6 +129,21 @@ public class BinaryTree{
         }
         
     }
+    public static int findMax(TreeNode root){
+        if(root==null){
+            return Integer.MAX_VALUE;
+        }    
+        int temp=root.data;
+        int left=findMax(root.left);
+        int right=findMax(root.right);
+        if(temp<left){
+            temp=left;
+        }
+        if(temp<right){
+            temp=right;
+        }
+        return temp;
+    }
     public static void main(String[] args) {
         BinaryTree tr=new BinaryTree();
         tr.createTree();
