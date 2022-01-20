@@ -111,7 +111,7 @@ public class BinaryTree{
         recursivePostOrder(root.right);
         System.out.print(root.data+" ");
     }
-    public void levelOrder(TreeNode root){
+    public static void levelOrder(TreeNode root){
         if(root==null){
             return;
         }
@@ -138,6 +138,6 @@ public class BinaryTree{
         tr.iterativeInOrder(tr.root);
         tr.recursivePostOrder(tr.root);
         tr.iterativePostOrder(tr.root);
-        tr.levelOrder(tr.root);
+        levelOrder(tr.root);
     }
 }
