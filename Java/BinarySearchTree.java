@@ -10,6 +10,9 @@ public class BinarySearchTree{
             this.data=data;
             }
     }
+    public void insert(int val){
+        root=insert(root, val);
+    }
     public static TreeNode insert(TreeNode root, int val){
         if(root == null){
             return root;
