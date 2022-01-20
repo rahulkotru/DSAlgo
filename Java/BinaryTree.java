@@ -111,7 +111,7 @@ public class BinaryTree{
         recursivePostOrder(root.right);
         System.out.print(root.data+" ");
     }
-    public static void levelOrder(TreeNode root){
+    static void levelOrder(TreeNode root){
         if(root==null){
             return;
         }
@@ -119,7 +119,7 @@ public class BinaryTree{
         queue.offer(root);
         while(!queue.isEmpty()){
             TreeNode temp= queue.poll();
-            System.out.println(temp.data+"-> ");
+            System.out.println(temp.data+"->- ");
             if(temp.left!=null){
                 queue.offer(temp.left);
             }
