@@ -76,7 +76,5 @@ public class BinarySearchTree{
         bts.insert(9);
 
         bts.inOrder();
-        System.out.println(bts.isValid(bts.root));
-
     }
 }
