@@ -13,8 +13,9 @@ public class BinarySearchTree{
     public void insert(int val){
         root=insert(root, val);
     }
-    public static TreeNode insert(TreeNode root, int val){
+    public  TreeNode insert(TreeNode root, int val){
         if(root == null){
+            root=new TreeNode(val);
             return root;
         }
         if(val<root.data){
@@ -26,6 +27,7 @@ public class BinarySearchTree{
         return root;
     }
     public void inOrder(){
+        System.out.println("InOrder Traversal");
         inOrder(root);
     }
     public void inOrder(TreeNode root){
@@ -33,8 +35,22 @@ public class BinarySearchTree{
             return;
         }
         inOrder(root.left);
-        System.out.println(root.data+"");
+        System.out.print(root.data+"-->");
         inOrder(root.right);
+    }
+    public TreeNode search(int key){
+        return search(root,key);
+    }
+    public TreeNode search(TreeNode root,int key){
+        if(root==null||root.data==key){
+            return root;
+        }
+        if(key<root.data){
+            return search(root.left,key);
+        }
+        else{
+            return search(root.right,key);
+        }
     }
     public static void main(String[] args) {
         BinarySearchTree bts=new BinarySearchTree();
@@ -44,5 +60,6 @@ public class BinarySearchTree{
         bts.insert(1);
 
         bts.inOrder();
+
     }
 }
