@@ -29,6 +29,7 @@ public class BinarySearchTree{
     public void inOrder(){
         System.out.println("InOrder Traversal");
         inOrder(root);
+        System.out.print("NULL");
     }
     public void inOrder(TreeNode root){
         if(root==null){
