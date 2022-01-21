@@ -73,6 +73,7 @@ public class BinarySearchTree{
         bts.insert(7);
         bts.insert(1);
         bts.insert(4);
+        bts.insert(9);
 
         bts.inOrder();
 
