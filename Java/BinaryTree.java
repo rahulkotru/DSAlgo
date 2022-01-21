@@ -144,6 +144,7 @@ public class BinaryTree{
         }
         return temp;
     }
+    
     public static void main(String[] args) {
         BinaryTree tr=new BinaryTree();
         tr.createTree();
