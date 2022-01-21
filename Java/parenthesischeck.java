@@ -23,8 +23,9 @@ public class parenthesischeck{
         }return stack.isEmpty();
     }
     public static void main(String[] args) {
-        String str="{}";
-        System.out.println(str.checkparity(str));
+        parenthesischeck pcheck=new parenthesischeck();
+        String str="{}0";
+        System.out.println(pcheck.checkparity(str));
     }
     
 }
