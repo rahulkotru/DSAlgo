@@ -24,7 +24,7 @@ public class parenthesischeck{
     }
     public static void main(String[] args) {
         parenthesischeck pcheck=new parenthesischeck();
-        String str="{}0";
+        String str="({[[{})})]]";
         System.out.println(pcheck.checkparity(str));
     }
     
