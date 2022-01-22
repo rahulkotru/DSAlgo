@@ -21,7 +21,18 @@ public SudokoSolver{
         return false;
     }
         private static boolean isNumberColoumn(int [][] board,int number, int coloumn){
-            int localBoxRow
+            int localBoxRow=row-row%3;
+            int localBoxColoumn=coloumn-coloumn%3;
+
+            for(int i=localBoxRow;i<localBoxRow+3;i++){
+                for(int j=localBoxColoumn;j<localBoxColoumn+3;j++){
+                    if(board[i][j]==number){
+                        return true;
+                    }
+                }
+            }
         
     }
+    return false;
 }
+private static boolean isValidPlacement(int [][] board,int number,int row, int coloumn){}
