@@ -34,7 +34,13 @@ public SudokoSolver{
         
     }
     return false;
-}
-private static boolean isValidPlacement(int [][] board,int number,int row, int coloumn){
-    return !isNumberInRow(board,number,row)&&!isNumberInBox(board,number,row,coloumn)&&!isNumberInColoumn(board,number,coloumn);
+
+    private static boolean isValidPlacement(int [][] board,int number,int row, int coloumn){
+        return !isNumberInRow(board,nSumber,row)&&!isNumberInBox(board,number,row,coloumn)&&!isNumberInColoumn(board,number,coloumn);
+    }
+    private static boolean solveBoard(int[][] board){
+        for(int row=0;row<GRID_SIZE;row++){
+            for(int coloumn=0;coloumn<GRID_SIZE)
+        }
+    }
 }
