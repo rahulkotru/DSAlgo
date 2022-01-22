@@ -35,4 +35,6 @@ public SudokoSolver{
     }
     return false;
 }
-private static boolean isValidPlacement(int [][] board,int number,int row, int coloumn){}
+private static boolean isValidPlacement(int [][] board,int number,int row, int coloumn){
+    return !isNumberInRow(board,number,row)&&!isNumberInBox(board,number,row,coloumn)&&!isNumberInColoumn(board,number,coloumn);
+}
