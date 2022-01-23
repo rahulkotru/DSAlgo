@@ -3,16 +3,17 @@ public class SudokoSolver{
     public static void main(String[] args) {
 
         
-        int [][] board={{7,0,2,0,5,0,6,0,0},
-                        {0,0,0,0,0,3,0,0,0},
-                        {1,0,0,0,0,9,5,0,0},
-                        {8,0,0,0,0,0,0,9,0},
-                        {0,4,3,0,0,0,7,5,0},
-                        {0,9,0,0,0,0,0,0,8},
-                        {0,0,9,7,0,0,0,0,5},
-                        {0,0,0,2,0,0,0,0,0},
-                        {0,0,7,0,4,0,2,0,3}
-                    };
+        int [][] board={
+            {7,0,2,0,5,0,6,0,0},
+            {0,0,0,0,0,3,0,0,0},
+            {1,0,0,0,0,9,5,0,0},
+            {8,0,0,0,0,0,0,9,0},
+            {0,4,3,0,0,0,7,5,0},
+            {0,9,0,0,0,0,0,0,8},
+            {0,0,9,7,0,0,0,0,5},
+            {0,0,0,2,0,0,0,0,0},
+            {0,0,7,0,4,0,2,0,3}
+        };
                     if(solveBoard(board)){
                         System.out.println("Solved Successfully");
                     }
@@ -36,18 +37,18 @@ public class SudokoSolver{
         }
         return false;
     }
-        private static boolean isNumberInBox(int [][] board,int number, int coloumn,int row){
-            int localBoxRow=row-row%3;
-            int localBoxColoumn=coloumn-coloumn%3;
+    private static boolean isNumberInBox(int [][] board,int number, int row,int coloumn){
+        int localBoxRow=row-row%3;
+        int localBoxColoumn=coloumn-coloumn%3;
 
-            for(int i=localBoxRow;i<localBoxRow+3;i++){
-                for(int j=localBoxColoumn;j<localBoxColoumn+3;j++){
-                    if(board[i][j]==number){
-                        return true;
-                    }
+        for(int i=localBoxRow;i<localBoxRow+3;i++){
+            for(int j=localBoxColoumn;j<localBoxColoumn+3;j++){
+                if(board[i][j]==number){
+                    return true;
                 }
             }
-            return false;
+        }
+        return false;
     }
 
 
