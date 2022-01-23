@@ -13,8 +13,14 @@ public class SudokoSolver{
                         {0,0,0,2,0,0,0,0,0},
                         {0,0,7,0,4,0,2,0,3}
                     };
+                    if(solveBoard(board)){
+                        System.out.println("Solved Successfully");
+                    }
+                    else{
+                        System.out.println("Unsolvable");
+                    }
     }
-    private static boolean isNumber(int [][] board,int number, int row){
+    private static boolean isNumberInRow(int [][] board,int number, int row){
         for(int i=0;i<GRID_SIZE;i++){
             if(board[row][i]==number){
                 return true;
@@ -30,7 +36,7 @@ public class SudokoSolver{
         }
         return false;
     }
-        private static boolean isNumberBox(int [][] board,int number, int coloumn,int row){
+        private static boolean isNumberInBox(int [][] board,int number, int coloumn,int row){
             int localBoxRow=row-row%3;
             int localBoxColoumn=coloumn-coloumn%3;
 
@@ -41,24 +47,33 @@ public class SudokoSolver{
                     }
                 }
             }
-        
+            return false;
     }
-    return false;
+
 
     private static boolean isValidPlacement(int [][] board,int number,int row, int coloumn){
         return !isNumberInRow(board,number,row)&&!isNumberInBox(board,number,row,coloumn)&&!isNumberInColoumn(board,number,coloumn);
     }
+
     private static boolean solveBoard(int[][] board){
         for(int row=0;row<GRID_SIZE;row++){
             for(int coloumn=0;coloumn<GRID_SIZE;coloumn++){
                 if(board[row][coloumn]==0){
                     for(int numberToTry=1;numberToTry<=GRID_SIZE;numberToTry++){
                         if(isValidPlacement(board,numberToTry,row,coloumn)){
-                            board[row]
+                            board[row][coloumn]=numberToTry;
+                            if(solveBoard(board)){
+                                return true;
+                            }
+                            else{
+                                board[row][coloumn]=0;
+                            }
                         }
                     }
+                    return false;
                 }
             }
         }
+        return true;
     }
 }
