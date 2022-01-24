@@ -24,6 +24,6 @@ public class matrixSearch{
             {32,33,39,51}
         };
         matrixSearch sm=new matrixSearch();
-        sm.search(matrix,matrix.length,32);
+        sm.search(matrix,matrix.length,40);
     }
 }
