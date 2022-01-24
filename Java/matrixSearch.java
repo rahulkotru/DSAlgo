@@ -23,7 +23,7 @@ public class matrixSearch{
             {27,29,37,48},
             {32,33,39,51}
         };
-        searchMatrix sm=new SearchMatrix();
+        matrixSearch sm=new matrixSearch();
         sm.search(matrix,matrix.length,32);
     }
 }
