@@ -4,7 +4,7 @@ public class matrixSearch{
         int j=n-1;
         while(i<n&& j>=0){
             if(matrix[i][j]==x){
-                System.out.println("x found at -"+i+","+j);
+                System.out.println("x found at "+i+","+j);
                 return;
             }
             if(matrix[i][j]>x){
