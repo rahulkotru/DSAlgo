@@ -35,6 +35,17 @@ public class MaxHeap{
             k=k/2;
         }
     }
+    public int deleteMax(){
+        int max=heap[1];
+        swap(1,n);
+        n--;
+        sink(1);
+        heap[n+1]=null;
+        if(n>0&&(n==(heap.length-1)/4)){
+            resize(heap.length/2);
+        }
+        return max;
+    }
     public static void main(String[] args) {
         MaxHeap mp = new MaxHeap(3);
         System.out.println(mp.size());
