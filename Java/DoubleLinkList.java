@@ -113,7 +113,7 @@ public class DoubleLinkList(){
 
     public static void main(String[] args){
         DoubleLinkList dl =new DoubleLinkList();
-        ListNode data1=
+        
     }
 
 
