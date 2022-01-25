@@ -35,7 +35,7 @@ public class MaxHeap{
             k=k/2;
         }
     }
-    public int deleteMax(){
+    public int sink(int k){
         int max=heap[1];
         swap(1,n);
         n--;
