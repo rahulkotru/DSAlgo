@@ -46,6 +46,11 @@ public class MaxHeap{
         }
         return max;
     }
+    public void swap(int a,int b){
+        int temp=heap[a];
+        heap[a]=heap[b];
+        heap[b]=temp;
+    }
     public static void main(String[] args) {
         MaxHeap mp = new MaxHeap(3);
         System.out.println(mp.size());
