@@ -53,6 +53,8 @@ public class MaxHeap{
     }
     public static void main(String[] args) {
         MaxHeap mp = new MaxHeap(3);
+        mp.insert(5);
+        mp.insert(6);
         System.out.println(mp.size());
         System.out.println(mp.isEmpty());
 
