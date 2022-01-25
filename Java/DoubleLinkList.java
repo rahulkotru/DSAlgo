@@ -1,24 +1,27 @@
-public class DoubleLinkList(){
+import java.util.*;
+public class DoubleLinkList{
     private ListNode head;
     private ListNode tail;
     private int length;
 
     public DoubleLinkList(){
-        this.next=null;
-        this.prev=null;
+        this.head=null;
+        this.tail=null;
         this.length=0;
     }
-    private class ListNode(){
+    private class ListNode{
         private int data;
         private ListNode next;
         private ListNode prev;
 
         public ListNode(int data){
             this.data=data;
+            this.next=null;
+            this.prev=null;
         }
     }
 
-    public insertlast(int data){
+    public void insertlast(int data){
         ListNode newNode=new ListNode(data);
         if(head==null){
             head=newNode;
@@ -32,7 +35,7 @@ public class DoubleLinkList(){
     }
     public void displayForward(){
         if(head==null){
-            return null;
+            return ;
         }
         ListNode temp=head;
         while(temp!=null){
@@ -99,7 +102,7 @@ public class DoubleLinkList(){
             throw new NoSuchElementException();
         }        
         ListNode temp=tail;
-        if(head=tail){
+        if(head==tail){
             head=null;
         }    
         else{
