@@ -1,5 +1,7 @@
+import java.util.*;
 public class linearSearch{
     public static void linSearch(int[] arr,int n){
+        Arrays.sort(arr);
         for (int i =0;i<arr.length;i++){
             if(arr[i]==n){
                 System.out.println("Element found at position"+n);
@@ -10,6 +12,7 @@ public class linearSearch{
         }
     }
     public static void BinSearch(int arr[],int n){
+        Arrays.sort(arr);
         int start=0;
         int end =arr.length-1;
         
@@ -26,8 +29,8 @@ public class linearSearch{
         }
     }
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,5,6,7,8,9};
+        int arr[]={5,6,7,3,2,8,1,0};
         linSearch(arr,2);
-        BinSearch(arr,4);
+        BinSearch(arr,7);
     }
 }
