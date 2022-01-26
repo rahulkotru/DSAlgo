@@ -46,9 +46,10 @@ public class linearSearch{
         }
         return start;
     }
-    public statid Boolean bubbleSort(int arr[]){
+    public static void bubbleSort(int arr[]){
+        boolean isSwapped=true;
         for(int i=0;i<arr.length-1;i++){
-            bubbleSort=false;
+            isSwapped=false;
             for(int j=0;j<arr.length-1-i;j++){
                 if(arr[j]>arr[j+1]){
                     int temp=arr[j];
@@ -59,7 +60,7 @@ public class linearSearch{
             }
 
         }
-        return
+        System.out.println("Swapping complete: "+ isSwapped);
     }
     public static void main(String[] args) {
         int arr[]={5,6,7,3,2,8,1,0};
