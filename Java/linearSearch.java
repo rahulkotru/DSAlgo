@@ -28,15 +28,16 @@ public class linearSearch{
                 start=mid+1;            }
         }
     }
-    public static int searchInsertPosition(int num[],int num){
+    public static int searchInsertPosition(int num[],int numb){
+        Arrays.sort(num);
         int start=0;
         int end=num.length-1;
         while(start<=end){
             int mid=start+(end-start)/2;
-            if(arr[mid]==num) {
+            if(num[mid]==numb) {
                 return mid;
             }
-            if(num<arr[mid]){
+            if(numb<num[mid]){
                 end=mid-1;
             }
             else{
@@ -49,5 +50,7 @@ public class linearSearch{
         int arr[]={5,6,7,3,2,8,1,0};
         linSearch(arr,2);
         BinSearch(arr,7);
+        int y=searchInsertPosition(arr,8);
+        System.out.println(y);
     }
 }
