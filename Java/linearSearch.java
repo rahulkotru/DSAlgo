@@ -46,6 +46,21 @@ public class linearSearch{
         }
         return start;
     }
+    public statid Boolean bubbleSort(int arr[]){
+        for(int i=0;i<arr.length-1;i++){
+            bubbleSort=false;
+            for(int j=0;j<arr.length-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    int temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                    isSwapped=true;
+                }
+            }
+
+        }
+        return
+    }
     public static void main(String[] args) {
         int arr[]={5,6,7,3,2,8,1,0};
         linSearch(arr,2);
