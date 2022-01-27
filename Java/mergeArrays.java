@@ -19,11 +19,17 @@ public class mergeArrays{
         }
         while(j<a2.length){
             merger[k]=a2[j];
-            k++;j++;
+            j++;k++;
         }
         return merger;
     }
     public static void main(String[] args) {
-        
+        int[] arr={3,4,7,8};
+        int[] narr={1,2,5,6};
+        int [] z=mergeArr(arr,narr);
+        for(int i=0;i<z.length-1;i++){
+            System.out.print("-->"+z[i]);
+        }
+
     }
 }
