@@ -16,3 +16,9 @@ qu.appendleft(19)
 qu.appendleft(8)
 qu
 qu.pop()
+#Queue using queue
+import queue
+q=queue.Queue()
+q.put(10)
+q.put(9)
+q.get()
