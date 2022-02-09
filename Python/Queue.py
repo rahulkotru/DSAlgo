@@ -8,3 +8,11 @@ Q.pop(0)
 Q.pop(0)
 Q.pop(0)
 Q.pop(0)
+Q
+#Queue using Modules
+import collections
+qu=collections.deque()
+qu.appendleft(19)
+qu.appendleft(8)
+qu
+qu.pop()
