@@ -34,3 +34,7 @@ class LinkedList:
             while n is not None:
                 print(n.data,"-->",end=" ")
                 n=n.next_node
+    def add_beginning(self,data):
+        new_node=Node(data)
+        new_node.next_node=self.head
+        self.head=new_node
