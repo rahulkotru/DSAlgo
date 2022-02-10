@@ -26,11 +26,11 @@ class LinkedList:
             current =current.next_node
         return count
 
-    def printl(self):
+    def print_traversal(self):
         if self.head is None:
             print("Linked List is Empty")
         else:
             n=self.head
             while n is not None:
-                print(n.data)
+                print(n.data,"-->",end=" ")
                 n=n.next_node
