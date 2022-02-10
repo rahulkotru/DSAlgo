@@ -38,6 +38,7 @@ class LinkedList:
             while n is not None:
                 print(n.data,"-->",end=" ")
                 n=n.next_node
+            print("Null")
     def add_beginning(self,data):
         new_node=Node(data)
         new_node.next_node=self.head
@@ -51,7 +52,7 @@ class LinkedList:
             while n.next_node is not None:
                 n=n.next_node
                 n.next_node=new_node
-    def add_after(self,data):
+    def add_after(self,data,x):
         n=self.head
         while n is not None:
             if x==n.data:
@@ -67,4 +68,6 @@ class LinkedList:
 
 Link=LinkedList()
 Link.add_end(4)
+Link.add_beginning(8)
+Link.add_after(5,4)
 Link.print_traversal()
