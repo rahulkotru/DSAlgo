@@ -38,3 +38,13 @@ class LinkedList:
         new_node=Node(data)
         new_node.next_node=self.head
         self.head=new_node
+    def add_end(self,data):
+        new_node=Node(data)
+        if self.head is None:
+            self.head=new_node
+        else:
+            n-self.head
+            while n.next_node is not None:
+                n=n.next_node
+                n.next_node=new_node
+        
