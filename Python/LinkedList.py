@@ -1,3 +1,4 @@
+from os import link
 from tkinter import N
 
 
@@ -62,3 +63,8 @@ class LinkedList:
                 new_node=Node(data)
                 new_node.next_node=n.next_node
                 n.next_node=new_node
+
+
+Link=LinkedList()
+Link.add_end(4)
+Link.print_traversal()
