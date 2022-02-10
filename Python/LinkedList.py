@@ -1,3 +1,6 @@
+from tkinter import N
+
+
 class Node:
     data=None
     next_node=None
@@ -47,4 +50,15 @@ class LinkedList:
             while n.next_node is not None:
                 n=n.next_node
                 n.next_node=new_node
-        
+    def add_after(self,data):
+        n=self.head
+        while n is not None:
+            if x==n.data:
+                break
+            n=n.next_node
+            if n is None:
+                print("Node is not present in Linked List") 
+            else:
+                new_node=Node(data)
+                new_node.next_node=n.next_node
+                n.next_node=new_node
