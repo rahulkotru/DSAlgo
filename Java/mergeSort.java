@@ -6,7 +6,7 @@ public class mergeSort{
         }
         System.out.println();
     }
-    public void sort(int [] arr,int [] temp, int low, int high){
+    public static void sort(int [] arr,int [] temp, int low, int high){
         if(low<high){
             int mid=low+(high-low)/2;
             sort(arr,temp,low,high);
@@ -41,7 +41,8 @@ public class mergeSort{
     public static void main(String[] args) {
         int [] arr=new int[]{9,5,2,4,3};
         printArray(arr);
-        sort(arr,new int[arr.length],low:0,high:arr.length-1);
+        mergeSort ms =new mergeSort();
+        ms.sort(arr,new int[arr.length],low:0,high:arr.length-1);
         printArray(arr);
     }
 }
