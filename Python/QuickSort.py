@@ -19,3 +19,8 @@ def quicksort(list1,first,last):
     p=pivot_place(list1,first,last)
     quicksort(list1,first,p-1)
     quicksort(list1,p+1,last)
+
+list1=[5,3,7,2,8]
+n=len(list1)
+quicksort(list1,0,n-1)
+print(list1)
