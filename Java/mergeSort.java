@@ -6,15 +6,15 @@ public class mergeSort{
         }
         System.out.println();
     }
-    public static void sort(int [] arr,int [] temp, int low, int high){
+    public  void sort(int [] arr,int [] temp, int low, int high){
         if(low<high){
             int mid=low+(high-low)/2;
             sort(arr,temp,low,high);
-            sort(arr,temp,low:mid+1,high);
+            sort(arr,temp,mid+1,high);
             merge(arr,temp,low,mid,high);
         }
     }
-    private static void merge(int[] arr,int[] temp,int low,int high){
+    private static void merge(int[] arr,int[] temp,int low, int mid,int high){
         for (int i=low;i<=high;i++){
             temp[i]=arr[i];
         }
@@ -42,7 +42,7 @@ public class mergeSort{
         int [] arr=new int[]{9,5,2,4,3};
         printArray(arr);
         mergeSort ms =new mergeSort();
-        ms.sort(arr,new int[arr.length],low:0,high:arr.length-1);
+        ms.sort(arr,new int[arr.length],0,arr.length-1);
         printArray(arr);
     }
 }
