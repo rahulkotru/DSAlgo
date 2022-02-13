@@ -13,6 +13,6 @@ stack1.put(9)
 stack1.put(8)
 stack1.put(9)
 p=stack1.full
-print(p)
+print(p
 stack1.get()
 
