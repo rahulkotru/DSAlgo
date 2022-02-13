@@ -8,8 +8,10 @@ stack
 stack.pop()
 #using queue
 import queue
-stack1=queue.LifoQueue()
+stack1=queue.LifoQueue(4)
 stack1.put(9)
 stack1.put(8)
 stack1.put(9)
+p=queue.LifoQueue.full()
+print(p)
 stack1.get()
