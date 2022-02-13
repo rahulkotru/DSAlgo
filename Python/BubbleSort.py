@@ -1,6 +1,6 @@
 # Simple sorting algorithm which compares n elements in list
 list1=[]
-num=int(input("Length of array: "))
+num=int(input("Length of input array: "))
 for k in range(num):
     list1.append(int(input()))
 
