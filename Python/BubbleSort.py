@@ -14,4 +14,4 @@ for j in range(len(list1)-1,0,-1):
         else:
             print(list1)
         print()
-print("Sorted List: ",list1)
+print("Sorted List BubbleSort: ",list1)
