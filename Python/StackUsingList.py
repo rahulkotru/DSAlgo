@@ -12,6 +12,7 @@ stack1=queue.LifoQueue(4)
 stack1.put(9)
 stack1.put(8)
 stack1.put(9)
-p=queue.LifoQueue.full()
+p=stack1.full
 print(p)
 stack1.get()
+
