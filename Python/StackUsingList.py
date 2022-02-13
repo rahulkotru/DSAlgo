@@ -11,4 +11,5 @@ import queue
 stack1=queue.LifoQueue()
 stack1.put(9)
 stack1.put(8)
+stack1.put(9)
 stack1.get()
