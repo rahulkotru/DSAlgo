@@ -3,13 +3,14 @@ public class UndirectedGraph{
     private int E;
     private int [][] adjMatrix;
     public UndirectedGraph(int nodes){
-        this.V=0;
+        this.V=nodes;
         this.E=0;
         this.adjMatrix=new int[nodes][nodes];
     }
     public void addEdge(int u,int v){
         this.adjMatrix[u][v]=1;
         this.adjMatrix[v][u]=1;
+        E++;
     }
     public static void main(String[] args){
         UndirectedGraph graph=new UndirectedGraph(4);
