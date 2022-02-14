@@ -1,3 +1,4 @@
-public class UndirectedGraphs{
+public class UndirectedGraph{
     
+
 }
