@@ -3,6 +3,8 @@ public class UndirectedGraph{
     private int E;
     private int [][] adjMatrix;
     public UndirectedGraph(int nodes){
+        this.V=0;
+        this.E=0;
         this.adjMatrix=new int[nodes][nodes];
     }
     public void addEdge(int u,int v){
