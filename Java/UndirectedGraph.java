@@ -1,5 +1,7 @@
 public class UndirectedGraph{
-    int [][] adjMatrix;
+    private int V;
+    private int E;
+    private int [][] adjMatrix;
     public UndirectedGraph(int nodes){
         this.adjMatrix=new int[nodes][nodes];
     }
