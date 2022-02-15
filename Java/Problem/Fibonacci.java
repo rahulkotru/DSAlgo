@@ -7,6 +7,7 @@ public class Fibonacci{
         return left+right;
     }
     public static void main(String[] args) {
-        
+        int u=Fibo(8);
+        System.out.println(u);
     }
 }
