@@ -7,6 +7,15 @@ public class Fibonacci{
         System.out.println(left+right);
         return left+right;
     }
+    public static long fibo(int n){
+        long[] arr=new long[n+2];
+        if(n==0) return 0;
+        if (n==1) return 1;
+        for (int i=2;i<n;i++){
+            arr[i]=arr[i-1]+arr[i-2];
+        }
+        return arr[n];
+    }
     public static void main(String[] args) {
         int u=Fibo(8);
         System.out.println(u);
