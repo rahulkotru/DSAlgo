@@ -1,10 +1,17 @@
 #include <iostream>
 using namespace std;
 class Employee{
-public:
+public://Access modifiers(Private,Protected,Public)
     string Name;
     string Company;
     int Age;
+
+    Employee(string name,string company,int age){//Creating contructor 1) No return type. 2) Same name as class 3) 
+    Name=name;
+    Company=company;
+    Age=age;
+
+    }
 
     void giveIntro(){
         cout<<"Hi! My name is: "<<Name<<", I work at: "<<Company<<" and I am "<<Age<<" years old."<<endl;
