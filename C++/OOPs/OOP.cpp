@@ -19,6 +19,9 @@ public://Access modifiers(Private,Protected,Public)
     void giveIntro(){
         cout<<"Hi! My name is: "<<Name<<", I work at: "<<Company<<" and I am "<<Age<<" years old."<<endl;
     }
+    void setName(string name){
+        Name=name;
+    }
 };
 int main(){
     Employee E1=Employee("Phil","Tata",24);
