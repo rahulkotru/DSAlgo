@@ -31,6 +31,12 @@ public:
     string getCompany(){
         return Company;
     }
+    void setAge(int age){
+        Age=age;
+    }
+    int getAge(){
+        return Age;
+    }
 
 };
 int main(){
@@ -39,11 +45,13 @@ int main(){
     Employee E3;
     E3.setName("Karan");
     E3.setCompany("Infosys");
+    E3.setAge(22);
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
     E1.giveIntro();
     E2.giveIntro();
     E3.giveIntro();
+    cout<<E1.getAge();
     return 0;
 }
