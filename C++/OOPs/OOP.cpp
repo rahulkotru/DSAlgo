@@ -6,6 +6,9 @@ public://Access modifiers(Private,Protected,Public)
     string Company;
     int Age;
 
+    Employee(){
+
+    }
     Employee(string name,string company,int age){//Creating contructor 1) No return type. 2) Same name as class 3) 
     Name=name;
     Company=company;
@@ -19,9 +22,11 @@ public://Access modifiers(Private,Protected,Public)
 };
 int main(){
     Employee E1=Employee("Phil","Tata",24);
+    Employee E2;
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
     E1.giveIntro();
+    E2.giveIntro();
     return 0;
 }
