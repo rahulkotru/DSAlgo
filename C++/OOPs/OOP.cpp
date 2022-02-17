@@ -18,10 +18,10 @@ public://Access modifiers(Private,Protected,Public)
     }
 };
 int main(){
-    Employee E1;
-    E1.Name="Phil";
-    E1.Company="Tata";
-    E1.Age=24;
+    Employee E1=Employee("Phil","Tata",24);
+    // E1.Name="Phil";
+    // E1.Company="Tata";
+    // E1.Age=24;
     E1.giveIntro();
     return 0;
 }
