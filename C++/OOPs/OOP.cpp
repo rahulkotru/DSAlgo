@@ -22,6 +22,9 @@ public://Access modifiers(Private,Protected,Public)
     void setName(string name){
         Name=name;
     }
+    string getName(){
+        return Name;
+    }
 };
 int main(){
     Employee E1=Employee("Phil","Tata",24);
