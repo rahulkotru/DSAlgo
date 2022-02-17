@@ -31,15 +31,19 @@ public:
     string getCompany(){
         return Company;
     }
-    
+
 };
 int main(){
     Employee E1=Employee("Phil","Tata",24);
     Employee E2;
+    Employee E3;
+    E3.setName("Karan");
+    E3.setCompany("Infosys");
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
     E1.giveIntro();
     E2.giveIntro();
+    E3.giveIntro();
     return 0;
 }
