@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 class Employee{
-public://Access modifiers(Private,Protected,Public)
+private://Access modifiers(Private,Protected,Public)
     string Name;
     string Company;
     int Age;
-
+public:
     Employee(){
 
     }
@@ -25,6 +25,13 @@ public://Access modifiers(Private,Protected,Public)
     string getName(){
         return Name;
     }
+    void setCompany(string company){
+        Company=company;
+    }
+    string getCompany(){
+        return Company;
+    }
+    
 };
 int main(){
     Employee E1=Employee("Phil","Tata",24);
