@@ -50,7 +50,7 @@ public:
     }
     void getPromoted(){
         if(Age>=30){
-            cout<<Name<<"gets Promoted by 1 level"<<endl;
+            cout<<Name<<" gets Promoted by 1 level"<<endl;
         }
         else{
             cout<<Name<<" is not eligible for promotion"<<endl;
@@ -64,27 +64,31 @@ public:
     Developer(string name,string company,int age,string language):Employee(name,company,age){
         favProgrammingLanguage=language;
     }
+    void fixBugs(){
+        cout<<Name<<" fixed bugs using "<<favProgrammingLanguage<<endl;
+    }
     
 };
 int main(){
-    Employee E1=Employee("Phil","Tata",24);
+    Employee Phil=Employee("Phil","Tata",24);
     Employee E2;
-    Employee E3;
-    E3.setName("Karan");
-    E3.setCompany("Infosys");
-    E3.setAge(17);
+    Employee Karan;
+    Karan.setName("Karan");
+    Karan.setCompany("Infosys");
+    Karan.setAge(17);
+    Developer Jacob=Developer("Jacob","Intel",31,"C#");
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
-    E1.giveIntro();
+    Phil.giveIntro();
     E2.giveIntro();
-    E3.giveIntro();
-    //cout<<"Age is: "<<E1.getAge()<<endl;
-    E1.getPromoted();
-    E2.getPromoted();
-    E3.getPromoted();
-    Developer Jacob=Developer("Jacob","Intel",31,"C#");
+    Karan.giveIntro();
     Jacob.giveIntro();
+    //cout<<"Age is: "<<E1.getAge()<<endl;
+    Phil.getPromoted();
+    E2.getPromoted();
+    Karan.getPromoted();
     Jacob.getPromoted();
+    Jacob.fixBugs();
     return 0;
 }
