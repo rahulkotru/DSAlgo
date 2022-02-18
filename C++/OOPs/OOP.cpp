@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
-class Office{
+class Office{//Abstraction
     virtual void getPromoted()=0;
 };
-class Employee:Office{
-private://Access modifiers(Private,Protected,Public)
+class Employee:Office{//Office(Abstraction)
+private://Access modifiers(Private,Protected,Public); Property of Encapsulation
     string Name;
     string Company;
     int Age;
 public:
-    Employee(){
+    Employee(){//Constructor(can be empty as well. If not defined, C++ uses default.)
         cout<<"No information provided, setting default values"<<endl;
         Name="John";
         Company="Unemployed";
@@ -24,19 +24,19 @@ public:
     void giveIntro(){
         cout<<"Hi! My name is: "<<Name<<", I work at: "<<Company<<" and I am "<<Age<<" years old."<<endl;
     }
-    void setName(string name){
+    void setName(string name){//Encapsulation
         Name=name;
     }
-    string getName(){
+    string getName(){//Encapsulation
         return Name;
     }
-    void setCompany(string company){
+    void setCompany(string company){//Encapsulation
         Company=company;
     }
-    string getCompany(){
+    string getCompany(){//Encapsulation
         return Company;
     }
-    void setAge(int age){
+    void setAge(int age){//Encapsulation
         if(age>=18){
             Age=age;
         }
@@ -44,7 +44,7 @@ public:
         Age=18;
         
     }
-    int getAge(){
+    int getAge(){//Encapsulation
         return Age;
     }
     void getPromoted(){
@@ -70,7 +70,7 @@ int main(){
     E1.giveIntro();
     E2.giveIntro();
     E3.giveIntro();
-    cout<<"Age is: "<<E1.getAge()<<endl;
+    //cout<<"Age is: "<<E1.getAge()<<endl;
     E1.getPromoted();
     E2.getPromoted();
     E3.getPromoted();
