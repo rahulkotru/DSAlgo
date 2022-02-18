@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
-class Employee{
+class Office{
+    virtual void getPromoted()=0;
+};
+class Employee:Office{
 private://Access modifiers(Private,Protected,Public)
     string Name;
     string Company;
@@ -44,6 +47,14 @@ public:
     int getAge(){
         return Age;
     }
+    void getPromoted(){
+        if(Age>=30){
+            cout<<Name<<"gets Promoted by 1 level"<<endl;
+        }
+        else{
+            cout<<Name<<" is not eligible for promotion"<<endl;
+        }
+    }
 
 };
 int main(){
@@ -59,6 +70,9 @@ int main(){
     E1.giveIntro();
     E2.giveIntro();
     E3.giveIntro();
-    cout<<"Age is: "<<E1.getAge();
+    cout<<"Age is: "<<E1.getAge()<<endl;
+    E1.getPromoted();
+    E2.getPromoted();
+    E3.getPromoted();
     return 0;
 }
