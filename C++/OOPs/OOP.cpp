@@ -35,7 +35,8 @@ public:
         if(age>=18){
             Age=age;
         }
-        cout<<"Age less than 18 is prohibited";
+        cout<<"Age less than 18 is prohibited, setting default age at 18"<<endl;
+        Age=18;
         
     }
     int getAge(){
@@ -49,7 +50,7 @@ int main(){
     Employee E3;
     E3.setName("Karan");
     E3.setCompany("Infosys");
-    E3.setAge(22);
+    E3.setAge(17);
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
