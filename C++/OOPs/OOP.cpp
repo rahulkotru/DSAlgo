@@ -32,7 +32,11 @@ public:
         return Company;
     }
     void setAge(int age){
-        Age=age;
+        if(age>=18){
+            Age=age;
+        }
+        cout<<"Age less than 18 is prohibited";
+        
     }
     int getAge(){
         return Age;
