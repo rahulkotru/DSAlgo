@@ -5,9 +5,10 @@ class Office{//Abstraction
 };
 class Employee:Office{//Office(Abstraction)
 private://Access modifiers(Private,Protected,Public); Property of Encapsulation
-    string Name;
     string Company;
     int Age;
+protected:
+   string Name;
 public:
     Employee(){//Constructor(can be empty as well. If not defined, C++ uses default.)
         cout<<"No information provided, setting default values"<<endl;
@@ -57,6 +58,14 @@ public:
     }
 
 };
+class Developer: public Employee{
+public:
+    string favProgrammingLanguage;
+    Developer(string name,string company,int age,string language):Employee(name,company,age){
+        favProgrammingLanguage=language;
+    }
+    
+};
 int main(){
     Employee E1=Employee("Phil","Tata",24);
     Employee E2;
@@ -74,5 +83,8 @@ int main(){
     E1.getPromoted();
     E2.getPromoted();
     E3.getPromoted();
+    Developer Jacob=Developer("Jacob","Intel",31,"C#");
+    Jacob.giveIntro();
+    Jacob.getPromoted();
     return 0;
 }
