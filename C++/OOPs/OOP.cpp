@@ -7,7 +7,10 @@ private://Access modifiers(Private,Protected,Public)
     int Age;
 public:
     Employee(){
-
+        cout<<"No information provided, setting default values"<<endl;
+        Name="John";
+        Company="Unemployeed";
+        Age=18;
     }
     Employee(string name,string company,int age){//Creating contructor 1) No return type. 2) Same name as class 3) 
     Name=name;
