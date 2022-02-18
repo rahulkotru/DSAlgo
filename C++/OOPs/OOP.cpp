@@ -84,7 +84,7 @@ int main(){
     E2.giveIntro();
     Karan.giveIntro();
     Jacob.giveIntro();
-    //cout<<"Age is: "<<E1.getAge()<<endl;
+    //cout<<"Age is: "<<E1.getAge()<<endl; 
     Phil.getPromoted();
     E2.getPromoted();
     Karan.getPromoted();
