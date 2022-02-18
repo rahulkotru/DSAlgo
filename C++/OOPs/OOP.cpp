@@ -52,6 +52,6 @@ int main(){
     E1.giveIntro();
     E2.giveIntro();
     E3.giveIntro();
-    cout<<E1.getAge();
+    cout<<"Age is: "<<E1.getAge();
     return 0;
 }
