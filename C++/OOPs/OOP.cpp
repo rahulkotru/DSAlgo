@@ -7,7 +7,7 @@ class Employee:Office{//Office(Abstraction)
 private://Access modifiers(Private,Protected,Public); Property of Encapsulation
     string Company;
     int Age;
-protected:
+protected://For inheritence
    string Name;
 public:
     Employee(){//Constructor(can be empty as well. If not defined, C++ uses default.)
@@ -58,7 +58,7 @@ public:
     }
 
 };
-class Developer: public Employee{
+class Developer: public Employee{//Inheritence
 public:
     string favProgrammingLanguage;
     Developer(string name,string company,int age,string language):Employee(name,company,age){
@@ -77,6 +77,7 @@ int main(){
     Karan.setCompany("Infosys");
     Karan.setAge(17);
     Developer Jacob=Developer("Jacob","Intel",31,"C#");
+    Developer Jack=Developer("Jack","Verizon",33,"C++");
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
@@ -90,5 +91,6 @@ int main(){
     Karan.getPromoted();
     Jacob.getPromoted();
     Jacob.fixBugs();
+    Jack.fixBugs();
     return 0;
 }
