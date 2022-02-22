@@ -70,11 +70,11 @@ public:
     
 };
 class Teacher :public Employee{
-    private:
-    string subject;
     public:
+    string subject;
+    
     void prepareLesson(){
-        
+        cout<<Name<<" is preparing for"<<subject<<" lessons."<<endl;
     }
     };
 int main(){
