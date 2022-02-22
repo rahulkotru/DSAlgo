@@ -90,6 +90,7 @@ int main(){
     E2.getPromoted();
     Karan.getPromoted();
     Jacob.getPromoted();
+    Jack.getPromoted();
     Jacob.fixBugs();
     Jack.fixBugs();
     return 0;
