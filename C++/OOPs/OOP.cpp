@@ -69,6 +69,14 @@ public:
     }
     
 };
+class Teacher :public Employee{
+    private:
+    string subject;
+    public:
+    void prepareLesson(){
+        
+    }
+    };
 int main(){
     Employee Phil=Employee("Phil","Tata",24);
     Employee E2;
