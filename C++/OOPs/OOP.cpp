@@ -76,6 +76,9 @@ class Teacher :public Employee{
     void prepareLesson(){
         cout<<Name<<" is preparing for"<<subject<<" lessons."<<endl;
     }
+    Teacher(string name,string company,int age, string Subject):Employee(name,company,age){
+        subject=Subject;
+    }
     };
 int main(){
     Employee Phil=Employee("Phil","Tata",24);
