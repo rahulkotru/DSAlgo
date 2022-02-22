@@ -89,7 +89,7 @@ int main(){
     Karan.setAge(17);
     Developer Jacob=Developer("Jacob","Intel",31,"C#");
     Developer Jack=Developer("Jack","Verizon",33,"C++");
-    Teacher Sal=Teacher("Sal","Donbas",29,"French");
+    Teacher Sal=Teacher("Sal","Donbas",29," French");
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
@@ -107,6 +107,7 @@ int main(){
     Sal.getPromoted();
     Jacob.fixBugs();
     Jack.fixBugs();
+    Sal.prepareLesson();
     
     return 0;
 }
