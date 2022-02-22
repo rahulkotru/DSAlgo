@@ -89,6 +89,7 @@ int main(){
     Karan.setAge(17);
     Developer Jacob=Developer("Jacob","Intel",31,"C#");
     Developer Jack=Developer("Jack","Verizon",33,"C++");
+    Teacher Sal=Teacher("Sal","Donbas",29,"French");
     // E1.Name="Phil";
     // E1.Company="Tata";
     // E1.Age=24;
@@ -96,13 +97,16 @@ int main(){
     E2.giveIntro();
     Karan.giveIntro();
     Jacob.giveIntro();
+    Sal.giveIntro();
     //cout<<"Age is: "<<E1.getAge()<<endl; 
     Phil.getPromoted();
     E2.getPromoted();
     Karan.getPromoted();
     Jacob.getPromoted();
     Jack.getPromoted();
+    Sal.getPromoted();
     Jacob.fixBugs();
     Jack.fixBugs();
+    
     return 0;
 }
