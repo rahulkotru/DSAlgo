@@ -1,3 +1,10 @@
+/*
+4 important aspects of OOPs are:
+Polymorphism
+Encapsulation
+Inheritence
+Abstraction
+*/
 #include <iostream>
 using namespace std;
 class Office{//Abstraction
