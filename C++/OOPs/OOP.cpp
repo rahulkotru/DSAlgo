@@ -67,6 +67,9 @@ public:
     void fixBugs(){
         cout<<Name<<" fixed bugs using "<<favProgrammingLanguage<<endl;
     }
+    void work(){
+        cout<<Name<<" is writing software in "<<favProgrammingLanguage<<"."<<endl;//Polymorphism
+    }
     
 };
 class Teacher :public Employee{
@@ -78,6 +81,9 @@ class Teacher :public Employee{
     }
     Teacher(string name,string company,int age, string Subject):Employee(name,company,age){
         subject=Subject;
+    }
+    void work(){
+        cout<<Name<<" is giving lecture on "<<subject<<"."<<endl;//Polymorphism
     }
     };
 int main(){
