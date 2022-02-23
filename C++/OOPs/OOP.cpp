@@ -48,6 +48,9 @@ public:
     int getAge(){//Encapsulation
         return Age;
     }
+    void work(){
+        cout<<Name<<" doesnt work"<<endl;
+    }
     void getPromoted(){
         if(Age>=30){
             cout<<Name<<" gets Promoted by 1 level"<<endl;
@@ -114,6 +117,9 @@ int main(){
     Jacob.fixBugs();
     Jack.fixBugs();
     Sal.prepareLesson();
-    
+    Jack.work();
+    Jacob.work();
+    Karan.work();
+    Phil.work();
     return 0;
 }
