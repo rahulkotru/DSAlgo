@@ -121,5 +121,6 @@ int main(){
     Jacob.work();
     Karan.work();
     Phil.work();
+    Sal.work();
     return 0;
 }
