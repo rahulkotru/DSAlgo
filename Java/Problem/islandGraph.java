@@ -15,6 +15,13 @@ class islandGraph{
         return count;
     }
     void callBFS(char [][] island,int i, int j){
-        
+        if(i<0|| i>island.length||j<0||j>=island.length||grid[i][j]=='0')
+        return;
+
+        island[i][j]='0';
+        callBFS(island,i+1,j);
+        callBFS(island,i-1,j);
+        callBFS(island,i,j+1);
+        callBFS(island,i,j-1);
     }    
 }
