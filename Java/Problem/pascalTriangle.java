@@ -8,7 +8,10 @@ class pascalTriangle{
             List<List<Integer>> first_num=new ArrayList<>();
             first_num.add(new);
             triangle.add(first_num);
-
+            for(int i=1;i<first_num;i++){
+                List<Integer> prev_row=triangle,get(i-1);
+                List<Integer> row=new ArrayList<>();
+            }
 
         }
     }
