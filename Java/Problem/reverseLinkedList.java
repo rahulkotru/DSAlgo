@@ -16,7 +16,7 @@ class reverseLinkedList{
                 ListNode next=head.next;
                 current.next=prev;
                 prev=head;
-                current=next; 
+                head=next; 
 
                 
             }
