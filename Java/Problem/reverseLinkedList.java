@@ -20,7 +20,7 @@ class reverseLinkedList{
 
                 
             }
-            
+            return prev;
         }
     }
     public static void main(String[] args){
