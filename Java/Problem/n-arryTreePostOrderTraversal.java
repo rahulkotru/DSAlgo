@@ -22,6 +22,7 @@ class n-arryTreePostOrderTraversal{
                 stack.add(child);
             }
         }
+        return arr;
     }
     public static void main(String args[]){
 
