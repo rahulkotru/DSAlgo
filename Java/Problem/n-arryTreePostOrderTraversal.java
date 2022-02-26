@@ -7,6 +7,9 @@ class n-arryTreePostOrderTraversal{
             this.children=child;
         }
     }
+    public List<Integer> narryTraversal(Node root){
+        
+    }
     public static void main(String args[]){
 
     }
