@@ -25,7 +25,16 @@ class palindromeCheck{
                 }
                 return true;
             }
-            
+            public ListNode reverse(ListNode head){
+                ListNode prev=head;
+                while(prev!=null){
+                    ListNode next=head.next;
+                    head.next=prev;
+                    prev=head;
+                    head=next;
+                }
+                return prev;
+            }
         }    
     
     
