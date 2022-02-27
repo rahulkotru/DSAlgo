@@ -10,7 +10,18 @@ class n-arryTreePreorderTraversal{
     }
     class Solution {
         public List<Integer> preorder(Node root){
-            
+            LinkedList<Node> stack=new LinkedList<>();
+            LinkedList<Node> arry=new LinkedList<>();
+            if(root=-null){
+                return arry;
+            }
+            stack.add(root);
+            while(!stack.isEmpty()){
+                Node node=stack.pollLast();
+                arry.add(node.val);
+                Collections.reverse(node.children);
+                
+            }
         }
     }
 }
