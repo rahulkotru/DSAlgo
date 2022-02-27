@@ -20,8 +20,11 @@ class n-arryTreePreorderTraversal{
                 Node node=stack.pollLast();
                 arry.add(node.val);
                 Collections.reverse(node.children);
-                
+                for(Node child:node.children){
+                    stack.add(child);
+                }
             }
+            return arry;
         }
     }
 }
