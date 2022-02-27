@@ -27,4 +27,7 @@ class n-arryTreePreorderTraversal{
             return arry;
         }
     }
+    public static void main(String args[]) {
+        
+    }
 }
