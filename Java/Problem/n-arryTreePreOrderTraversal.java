@@ -12,7 +12,7 @@ class n-arryTreePreorderTraversal{
         public List<Integer> preorder(Node root){
             LinkedList<Node> stack=new LinkedList<>();
             LinkedList<Node> arry=new LinkedList<>();
-            if(root=-null){
+            if(root==null){
                 return arry;
             }
             stack.add(root);
