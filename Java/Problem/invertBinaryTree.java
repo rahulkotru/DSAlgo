@@ -7,4 +7,9 @@ class invertBinaryTree{
             this.val=x;
         }
     }
+    class Solution{
+        public TreeNode invertTree(TreeNode root){
+            
+        }
+    }
 }
