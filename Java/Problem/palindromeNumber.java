@@ -1,3 +1,5 @@
 class palindromeNumber{
-    
+    class Solution{
+        
+    }
 }
