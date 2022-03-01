@@ -18,7 +18,7 @@ class SymmetricTree{
             if(r1==null||r2==null){
                 return false;
             }
-            return(t1.val==t2.val)&& isMirror(r1.left,r2.right)&&
+            return(t1.val==t2.val)&& isMirror(r1.left,r2.right)&&(r1.right,r2.left)
         }
 
     }
