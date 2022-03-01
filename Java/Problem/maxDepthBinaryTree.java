@@ -1,4 +1,9 @@
 class maxDepthBinaryTree{
+    class TreeNode{
+        TreeNode left;
+        TreeNode right;
+        int data;
+    }
     class Solution {
         private int answer;
         void maxDepth(TreeNode root,int depth){
@@ -11,5 +16,8 @@ class maxDepthBinaryTree{
             maxDepth(root.left,depth+1);
             maxDepth(root.right,depth+1);
         }
+    }
+    public static void main(String[] args){
+
     }
 }
