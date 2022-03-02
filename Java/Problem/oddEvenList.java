@@ -24,4 +24,7 @@ class oddEvenList{
         return head;
 
     }
+    public static void main(String[] args){
+        
+    }
 }
