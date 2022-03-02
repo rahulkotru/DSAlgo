@@ -15,7 +15,8 @@ class pathSum{
             Stack<TreeNode> node_stack=new Stack();
             Stack<Integer> sum_stack=new Stack();
 
-            
+            node_stack.add(root);
+            sum_stack.add(target-root.val);
         }
     }
 }
