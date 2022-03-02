@@ -7,5 +7,15 @@ class pathSum{
             this.val=data;
         }
     }
-    class Solution
+    class Solution{
+        public boolean hasPath(TreeNode root, int target){
+            if(root==null){
+                return false;
+            }
+            Stack<TreeNode> node_stack=new Stack();
+            Stack<Integer> sum_stack=new Stack();
+
+            
+        }
+    }
 }
