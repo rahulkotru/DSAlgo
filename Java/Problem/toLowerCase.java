@@ -11,4 +11,7 @@ class toLowerCase{
             return result;
         }
     }
+    public static void main(String[] args){
+        
+    }
 }
