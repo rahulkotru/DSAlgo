@@ -18,6 +18,20 @@ class backspaceCompare{
                 else{
                     break;
                 }
+                while(t_pointer>=0){
+                    if(t.charAt(t_pointer)=='#'){
+                        t_skips+=1;
+                        t_pointer-=1;
+                    }
+                    else if(t_skips>0){
+                        t_pointer-=1;
+                        t_skips=-1;
+                    }
+                    else{
+                        break;
+                    }
+                }
+                
             }
         }
     }
