@@ -1,5 +1,5 @@
 class backspaceCompare{
-    public boolean backspaceCompare(String s, String T){
+    public boolean backspaceCompare(String s, String t){
         int s_pointer=S.length()-1;
         int t_pointer=T.length()-1;
 
@@ -31,7 +31,9 @@ class backspaceCompare{
                         break;
                     }
                 }
-                
+                if(s_skips>=0&&t_skips>=0&&S.charAt(s_pointer)!=t.charAt(t_pointer)){
+                    
+                }
             }
         }
     }
