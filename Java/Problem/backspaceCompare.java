@@ -48,5 +48,9 @@ class backspaceCompare{
     public static void main(String[] args){
         String r="Russi#a";
         String f="Russi#a";
+        boolean t;
+
+        t=backspaceCompare(r,f);
+        System.out.println(t);
     }
 }
