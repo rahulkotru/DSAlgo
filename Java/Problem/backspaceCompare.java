@@ -32,7 +32,7 @@ class backspaceCompare{
                     break;
                 }
             }
-            if(s_skips>=0&&t_skips>=0&&S.charAt(s_pointer)!=t.charAt(t_pointer)){
+            if(s_pointer>=0&&t_pointer>=0&&S.charAt(s_pointer)!=t.charAt(t_pointer)){
                 return false;
             }
             if(s_pointer>=0!=(t_pointer>=0)){
@@ -46,6 +46,7 @@ class backspaceCompare{
             return true;
     }
     public static void main(String[] args){
-        
+        String r="Russi#a";
+        String f="Russi#a";
     }
 }
