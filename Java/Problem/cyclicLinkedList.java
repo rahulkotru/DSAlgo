@@ -13,13 +13,14 @@ class cyclicLinkedList{
             ListNode current=head;
             ListNode faster=head.next;
             while(faster!=current){
-                if(faster.val==current.val){
-                    return true;
+                if(faster.null||faster.next.next==null){
+                    return false;
                 }
                 current=current.next;
                 faster=faster.next.next;
                 
             }
+            return true;
         }
     }
 
