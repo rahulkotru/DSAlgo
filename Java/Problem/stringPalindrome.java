@@ -7,7 +7,15 @@ class stringPalindrome{
             }
             fixed=fixed.toLowerCase();
             int start=0;
-            
+            int end=fixed.length()-1;
+            while(start>=end){
+                if(fixed.charAt(start)!=fixed.charAt(end)){
+                    return false;
+                }
+                start++;
+                end--;
+            }
+            return true;
 
         }
     }
