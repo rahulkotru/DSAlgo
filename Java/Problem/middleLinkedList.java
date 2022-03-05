@@ -6,5 +6,10 @@ class middleLinkedList{
             this.data=val;
             this.next=null;
         }
+        class Solution {
+            public int middleNode(ListNode head){
+                
+            }
+        }
     }
 }
