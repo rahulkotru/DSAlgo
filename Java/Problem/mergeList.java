@@ -8,6 +8,8 @@ class mergeList{
         }
     }
     class Solution{
-        
+        public static ListNode mergeTwo(ListNode List1,ListNode List2){
+            
+        }
     }
 }
