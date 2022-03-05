@@ -13,7 +13,10 @@ class middleLinkedList{
                 }
                 ListNode fast=head;
                 ListNode slow=head;
-                
+                while(fast.next!=null&&fast!=null){
+                    slow=slow.next;
+                    fast=fast.next.next;
+                }
             }
         }
     }
