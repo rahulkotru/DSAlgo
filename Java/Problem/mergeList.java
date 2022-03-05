@@ -20,8 +20,13 @@ class mergeList{
             ListNode newList;
             while(point1.next!=null||point2.next!=null){
                 int a=(point1.val>point2.val)? point1.val:point2.val;
-                if(point)
-            }
+                if(point1>point2){
+                    point1=point1.next;
+                }
+                if(point1<point2){
+                point2=point2.next;
+                }
+                newList(a);
         }
     }
 }
