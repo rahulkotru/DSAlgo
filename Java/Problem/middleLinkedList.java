@@ -8,6 +8,11 @@ class middleLinkedList{
         }
         class Solution {
             public int middleNode(ListNode head){
+                if(head==null){
+                    return 0;
+                }
+                ListNode fast=head;
+                ListNode slow=head;
                 
             }
         }
