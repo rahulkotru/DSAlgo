@@ -6,6 +6,7 @@ class middleLinkedList{
             this.data=val;
             this.next=null;
         }
+    }
         class Solution {
             public int middleNode(ListNode head){
                 if(head==null){
@@ -20,5 +21,8 @@ class middleLinkedList{
                 return slow.val;
             }
         }
+
+    public static void main(String[] args){
+        
     }
 }
