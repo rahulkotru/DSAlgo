@@ -1,3 +1,5 @@
 class originReturn{
-    
+    class Solution {
+        
+    }
 }
