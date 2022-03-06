@@ -7,26 +7,26 @@ class originReturn{
                 if(move=='U'){
                     y+=1;
                 }
-                else if(move=="D"){
+                else if(move=='U'){
                     y-=1;
                 }
-                else if(move=="L"){
+                else if(move=='L'){
                     x-=1;
                 }
-                else if(move=="R"){
+                else if(move=='R'){
                     x+=1;
                 }
                 else{
                     System.out.println("Invalid Move");
                 }
             }
-            if(x!=0||y!=0){
-                return false;
+            if(x==0&&y==0){
+                return true;
             }
-            return true;
+            return false;
         }
     }
     public static void main(String[] args){
-        
+
     }
 }
