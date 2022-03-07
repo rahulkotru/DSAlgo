@@ -21,6 +21,13 @@ class sortedSquares{
             }
             while(negative_pointer>=0){
                 Sorted_Squares[counter]=A[negative_pointer]*A[negative_pointer];
+                negative_pointer=-1;
+                counter++;
+            }
+            while(positive_pointer>=0){
+                Sorted_Squares[counter]=A[positive_pointer]*A[positive_pointer];
+                positive_pointer=-1;
+                counter++;
             }
         }
     }
