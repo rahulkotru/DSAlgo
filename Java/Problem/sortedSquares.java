@@ -29,6 +29,7 @@ class sortedSquares{
                 positive_pointer=-1;
                 counter++;
             }
+            return sorted_Squares;
         }
     }
 }
