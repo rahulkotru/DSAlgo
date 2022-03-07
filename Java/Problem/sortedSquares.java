@@ -31,5 +31,9 @@ class sortedSquares{
             }
             return sorted_Squares;
         }
+
+    }
+    public static void main(String[] args){
+        
     }
 }
