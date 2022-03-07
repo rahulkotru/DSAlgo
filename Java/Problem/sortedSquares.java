@@ -1,3 +1,5 @@
 class sortedSquares{
-    
+    class Solution {
+        
+    }
 }
