@@ -11,6 +11,9 @@ class sortedSquares{
             int counter=0;
             while(negative_pointer>=0&&positive_pointer<N){
                 if(A[negative_pointer]*A[negative_pointer]<A[positive_pointer]*A[positive_pointer]){
+                    Sorted_Squares[counter]=A[negative_pointer]*A[negative_pointer];
+                }
+                else{
                     
                 }
             }
