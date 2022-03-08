@@ -11,9 +11,11 @@ class mostWater{
                 }
                 else{
                     max_area=math.max(max_area,height[end]*start-end);
+                    end--;
                 }
 
             }
+            return max_area;
         }
     }
 }
