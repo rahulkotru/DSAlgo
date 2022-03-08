@@ -8,9 +8,20 @@ class threeSumClosest{
                 int end=arr.length-1;
                 while(start<end){
                     int current=nums[i]+nums[start]+nums[end];
+                    if(current>target){
+                        end--;
+                        
+                    }
+                    else{
+                        start--;
+                    }
+                    if(Math.abs(current-target)<Math.abs(result-target)){
+                        result=current;
+                    }
                 }
                 
             }
+            return result;
         }
     }
 }
