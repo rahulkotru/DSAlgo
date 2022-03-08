@@ -6,11 +6,11 @@ class mostWater{
             int end=height.length-1;
             while(start<end){
                 if(height[start]<height[end]){
-                    max_area=Math.max(max_area, height[start]*start-end);
+                    max_area=Math.max(max_area, height[start]*end-start);
                     start++;
                 }
                 else{
-                    max_area=math.max(max_area,height[end]*start-end);
+                    max_area=math.max(max_area,height[end]*end-start);
                     end--;
                 }
 
@@ -19,6 +19,6 @@ class mostWater{
         }
     }
     public static void main(String[] ){
-        
+
     }
 }
