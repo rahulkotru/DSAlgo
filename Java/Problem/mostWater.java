@@ -18,4 +18,7 @@ class mostWater{
             return max_area;
         }
     }
+    public static void main(String[] ){
+        
+    }
 }
