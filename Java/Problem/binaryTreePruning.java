@@ -17,6 +17,13 @@ class binaryTreePruning{
             if(node==null)return false;
             boolean left_contains=containsOne(node.left);
             boolean right_contains=containsOne(node.right);
+            if(!left.contains){
+                node.left=null;
+            }
+            if(!right.contains){
+                node.right=null;
+            }
+            return node.val==1||left.contains||right.contains;
         }
 
     }
