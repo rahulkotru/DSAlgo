@@ -27,4 +27,7 @@ class binaryTreePruning{
         }
 
     }
+    public static void main(String[] args){
+        
+    }
 }
