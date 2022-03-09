@@ -20,8 +20,10 @@ class largestTreeVal{
                 largestVal.add(root.val);
             }
             else{
-                largestVal.set(level, Math.max)
+                largestVal.set(level, Math.max(largestVal.get(level),root.val));
             }
+            helper(root.left,largestVal,level+1);
+            helper(root.right,largestVal,level+1);
         }
     
     }
