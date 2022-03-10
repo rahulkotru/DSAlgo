@@ -23,7 +23,11 @@ class handOf Straight{
                     }
                 }
             }
+            return true;
         }
-        return true;
+        public static void main(String[] args){
+            
+        }
+
     }
 }
