@@ -10,7 +10,16 @@ class handOf Straight{
                     cardCounts.replace(card,cardCounts.get(card)+1);
                 }
             }
-            
+            while(cardCounts.size() >0){
+                int firstCard=cardCounts.firstKey();
+                for (int i=firstCard; i<firstCard+W;i++){
+                    if(!=cardCounts.containsKey(i)) return false;
+                    int count=cardCounts.get(i);
+                    if(count==1){
+                        cardCounts.remove(i);
+                    }
+                }
+            }
         }
     }
 }
