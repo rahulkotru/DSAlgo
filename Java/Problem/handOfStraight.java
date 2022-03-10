@@ -18,8 +18,12 @@ class handOf Straight{
                     if(count==1){
                         cardCounts.remove(i);
                     }
+                    else{
+                        cardCounts.replace(i, cardCounts.get(i)-1);
+                    }
                 }
             }
         }
+        return true;
     }
 }
