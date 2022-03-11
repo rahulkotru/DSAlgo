@@ -17,9 +17,16 @@ class partitionList{
                 if(head.val<target){
                     before.next = head;
                     before=before.next;
-                    
                 }
+                else{
+                    after.next=head;
+                    after=after.next;
+                }
+                head=head.next;
             }
+            after.next=null;
+            before.next=afterHead;
+            return beforeHead.next;
         }
     }
 }
