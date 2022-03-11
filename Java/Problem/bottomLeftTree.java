@@ -22,5 +22,8 @@ class bottomLeftTree{
             }
             return root.val;
         }
+        public static void main(String[] args){
+            
+        }
     }
 }
