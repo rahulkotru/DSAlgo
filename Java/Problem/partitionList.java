@@ -29,4 +29,7 @@ class partitionList{
             return beforeHead.next;
         }
     }
+    public static void main(String args[]){
+        
+    }
 }
