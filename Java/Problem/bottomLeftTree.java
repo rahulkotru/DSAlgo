@@ -16,7 +16,11 @@ class bottomLeftTree{
                 if(root.right!=null){
                     queue.offer(root.right);
                 }
+                if(root.left!=null){
+                    queue.offer(root.left);
+                }
             }
+            return root.val;
         }
     }
 }
