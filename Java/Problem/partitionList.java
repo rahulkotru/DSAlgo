@@ -13,6 +13,13 @@ class partitionList{
             ListNode before=beforeHead;
             ListNode afterHead=new ListNode(0);
             ListNode after=afterHead;
+            while(head!=null){
+                if(head.val<target){
+                    before.next = head;
+                    before=before.next;
+                    
+                }
+            }
         }
     }
 }
