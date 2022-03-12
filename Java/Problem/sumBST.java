@@ -41,6 +41,7 @@ class sumBST{
                     sumRecursive(root.right,L,R);
                 }
             }
+            return rangedSum;
         }
         public static void main(String[] args){
             
