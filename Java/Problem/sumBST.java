@@ -30,7 +30,17 @@ class sumBST{
         }   
         public int sumRecursive (TreeNode root, int L , int R){
             Stack<TreeNode> stack= new Stack();
-            if()
+            if(root!=null){
+                if(root.val>L&& root.val<R){
+                    rangeSum+=node.val;
+                }
+                if(root.val>L){
+                    sumRecursive(root.left, L,R);
+                }
+                if(root.val<R){
+                    sumRecursive(root.right,L,R);
+                }
+            }
         }
         public static void main(String[] args){
             
