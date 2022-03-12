@@ -28,5 +28,9 @@ class sumBST{
             }
             return rangeSum;
         }   
+        public static void main(String[] args){
+            
+        }
     }
+
 }
