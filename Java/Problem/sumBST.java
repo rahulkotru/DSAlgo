@@ -15,9 +15,18 @@ class sumBST{
             while(!stack.isEmpty()){
                 TreeNode node=stack.pop();
                 if(node!=null){
-                    
+                    if(node.val>=L && node.val<=R){
+                        rangeSum+=node.val;
+                    }
+                    if(node.val>L){
+                        stack.push(node.left);
+                    }
+                    if(node.val<R){
+                        stack.push(node.right);
+                    }
                 }
             }
+            return rangeSum;
         }   
     }
 }
