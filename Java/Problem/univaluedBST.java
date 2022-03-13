@@ -8,7 +8,9 @@ class univaluedBST{
         }
     }
     class Solution {
-        
+        public boolean isUnivalTree(TreeNode root){
+            
+        }
     }
 
 }
