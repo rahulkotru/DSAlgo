@@ -9,7 +9,8 @@ class univaluedBST{
     }
     class Solution {
         public boolean isUnivalTree(TreeNode root){
-            
+            boolean leftUnival=root.left==null||root.left.val==root.val&&isUnivalTree(root.left);
+            boolean rightUnival=root.right
         }
     }
 
