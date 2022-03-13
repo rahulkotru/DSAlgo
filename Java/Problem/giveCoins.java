@@ -12,10 +12,14 @@ class giveCoins{
         public static int distributeCoins(TreeNode root){
             coins=0;
             giveOut(root);
-            return moves;
+            return coins;
         }
-        public int giveOut(TreeNode root){
-            
+        public int giveOut(TreeNode node){
+            if(node==null) return 0;
+            int left=giveOut(node.left);
+            int right=giveOut(node.right);
+            coins=Math.abs(left)+Math.abs(right);
+            return node.val+left+right-1;
         }
     }
 }
