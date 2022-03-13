@@ -7,4 +7,8 @@ class univaluedBST{
             this.val=data;
         }
     }
+    class Solution {
+        
+    }
+
 }
