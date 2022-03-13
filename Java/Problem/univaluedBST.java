@@ -14,5 +14,8 @@ class univaluedBST{
             return leftUnival&&rightUnival;
         }
     }
+    public static void main(String[] args){
+        
+    }
 
 }
