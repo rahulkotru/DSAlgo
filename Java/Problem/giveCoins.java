@@ -21,5 +21,8 @@ class giveCoins{
             coins=Math.abs(left)+Math.abs(right);
             return node.val+left+right-1;
         }
+        public static void main(String[] args){
+            
+        }
     }
 }
