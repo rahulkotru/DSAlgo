@@ -10,6 +10,11 @@ class giveCoins{
     class Solution{
         int coins;
         public static int distributeCoins(TreeNode root){
+            coins=0;
+            giveOut(root);
+            return moves;
+        }
+        public int giveOut(TreeNode root){
             
         }
     }
