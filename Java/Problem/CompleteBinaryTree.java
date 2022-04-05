@@ -21,6 +21,8 @@ public class CompleteBinaryTree{
                 if(end){
                     return false;
                 }
+                Tree.offer(current.left);
+                Tree.offer(current.right);
             }
         }
     }
