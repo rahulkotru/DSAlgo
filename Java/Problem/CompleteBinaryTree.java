@@ -25,6 +25,7 @@ public class CompleteBinaryTree{
                 Tree.offer(current.right);
             }
         }
+        return true;
     }
     public static void main (String args[]){
 
