@@ -7,6 +7,15 @@ public class CompleteBinaryTree{
             this.data=data;
         }
     }
+    public boolean isComplete(TreeNode root){
+        boolean end=false;
+        Queue<TreeNode> Tree = new LinkedList<>();
+        Tree.offer(root);
+
+        while(!Tree.isEmpty){
+            
+        }
+    }
     public static void main (String args[]){
 
     }
