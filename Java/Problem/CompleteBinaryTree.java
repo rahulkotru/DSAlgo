@@ -12,8 +12,16 @@ public class CompleteBinaryTree{
         Queue<TreeNode> Tree = new LinkedList<>();
         Tree.offer(root);
 
-        while(!Tree.isEmpty){
-            
+        while(!Tree.isEmpty()){
+            TreeNode current= Tree.poll();
+            if(current==null){
+                end=true;
+            }
+            else{
+                if(end){
+                    return false;
+                }
+            }
         }
     }
     public static void main (String args[]){
