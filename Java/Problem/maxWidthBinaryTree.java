@@ -9,7 +9,10 @@ class maxWidthBinaryTree{
     }
     public class Solution {
         int maxWidth;
-        
+        HashMap<Integer, Integer> leftmostPosition;
+        public int width(TreeNode root){
+            
+        }
         public static void main(String[] args){
             
         }
