@@ -23,6 +23,7 @@ class flattenBinaryTreeToLinkedList{
                 if(!stack.isEmpty){
                     current.right=stack.peek();
                 }
+                currentleft=null;
             }
         }
     }
