@@ -20,6 +20,9 @@ class flattenBinaryTreeToLinkedList{
                 if(current.left!=null){
                     stack.push(current.left);
                 }
+                if(!stack.isEmpty){
+                    current.right=stack.peek();
+                }
             }
         }
     }
