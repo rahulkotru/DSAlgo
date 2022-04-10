@@ -7,4 +7,9 @@ class flattenBinaryTreeToLinkedList{
             this.data=val;
         }
     }
+    class Solution{
+        public void flatten(TreeNode root){
+            
+        }
+    }
 }
