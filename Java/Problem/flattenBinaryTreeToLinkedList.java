@@ -8,7 +8,7 @@ class flattenBinaryTreeToLinkedList{
         }
     }
     class Solution{
-        public void flatten(TreeNode root){
+        public static void flatten(TreeNode root){
             if(root==null) return
             Stack<TreeNode> stack=new Stack();
             stack.push(root);
@@ -28,6 +28,6 @@ class flattenBinaryTreeToLinkedList{
         }
     }
     public static void main(String args[]){
-        
+
     }
 }
