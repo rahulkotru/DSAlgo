@@ -9,6 +9,8 @@ class flattenBinaryTreeToLinkedList{
     }
     class Solution{
         public void flatten(TreeNode root){
+            if(root==null) return
+            Stack<TreeNode> stack=new Stack();
             
         }
     }
