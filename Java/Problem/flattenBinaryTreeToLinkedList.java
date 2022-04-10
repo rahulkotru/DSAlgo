@@ -27,4 +27,7 @@ class flattenBinaryTreeToLinkedList{
             }
         }
     }
+    public static void main(String args[]){
+        
+    }
 }
