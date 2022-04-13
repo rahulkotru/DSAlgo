@@ -7,7 +7,10 @@ class flipImage{
                 while(start<=end){
                     if(arr[i]==arr[i][end]){
                         arr[i][start]=1-arr[i][start];
+                        arr[i][end]=1-arr[i][start];
                     }
+                    start++;
+                    
                 }
             }
         }
