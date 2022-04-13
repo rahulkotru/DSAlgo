@@ -10,7 +10,7 @@ class flipImage{
                         arr[i][end]=1-arr[i][start];
                     }
                     start++;
-                    
+                    end--;
                 }
             }
         }
