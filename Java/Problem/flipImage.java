@@ -5,7 +5,9 @@ class flipImage{
                 int start=0;
                 int end=arr.length-1;
                 while(start<=end){
-                    if
+                    if(arr[i]==arr[i][end]){
+                        arr[i][start]=1-arr[i][start];
+                    }
                 }
             }
         }
