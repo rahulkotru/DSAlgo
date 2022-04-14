@@ -1,3 +1,5 @@
 class validPalindrome{
-    
+    class Solution{
+        
+    }
 }
