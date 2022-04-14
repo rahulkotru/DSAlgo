@@ -12,6 +12,9 @@ class validPalindrome{
             }
             reutrn true;
         }
+        public boolean helper(String s, int i, int j){
+            
+        }
     }
     public static void main(String args[]){
 
