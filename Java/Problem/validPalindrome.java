@@ -4,8 +4,13 @@ class validPalindrome{
             int i=0;
             int j=s.length();
             while(i<j){
-                
+                if(s.charAt(i)!=s.charAt(j)){
+                    return helper(s, i+1, j) || helper(s, i, j+1);
+                }
+                i++;
+                j--;
             }
+            reutrn true;
         }
     }
     public static void main(String args[]){
