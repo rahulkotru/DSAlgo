@@ -7,8 +7,9 @@ class rotateImage{
         int end=arr[0].length-1;
         for(int i=0;i<arr.length;i++){
             for(int j=i;j<arr[0].length;j++){
-                if(arr[i][j]!=arr[j][i])
-                arr[i][j]=arr[j][i];
+            int temp=arr[i][j];
+            arr[i][j]=arr[j][i];
+            arr[j][i]=temp;
             }
         }
         
