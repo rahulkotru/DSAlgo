@@ -5,6 +5,8 @@ class searchBinaryTree{
         TreeNode right;
         TreeNode(int data){
             this.data=data;
+            left=null;
+            right=null;
         }
     }
     class Solution{
