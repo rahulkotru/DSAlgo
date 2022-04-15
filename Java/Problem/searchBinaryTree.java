@@ -12,10 +12,10 @@ class searchBinaryTree{
             if(root==null|| root.data==val)return root;
             TreeNode current=root;
             if(val<root.val){
-                search(root.left,val)
+                return search(root.left,val);
             }
             else{
-                search(root.right)
+                return search(root.right,val);
             }
         }
     }
