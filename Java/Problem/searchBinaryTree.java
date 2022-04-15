@@ -10,6 +10,13 @@ class searchBinaryTree{
     class Solution{
         public TreeNode search(TreeNode root,int val){
             if(root==null|| root.data==val)return root;
+            TreeNode current=root;
+            if(val<root.val){
+                search(root.left,val)
+            }
+            else{
+                search(root.right)
+            }
         }
     }
 }
