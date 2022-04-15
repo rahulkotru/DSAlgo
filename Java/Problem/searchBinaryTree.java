@@ -19,4 +19,7 @@ class searchBinaryTree{
             }
         }
     }
+    public static void main(String[] args) {
+        
+    }
 }
