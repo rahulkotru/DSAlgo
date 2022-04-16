@@ -1,3 +1,5 @@
 class arrayTranspose{
-    
+    class Solution{
+        
+    }
 }
