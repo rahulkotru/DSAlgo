@@ -5,7 +5,8 @@ class arrayTranspose{
             int col=arr[0].length();
             for (int i=0;i<row;i++){
                 for(j=i;j<row;j++){
-                    
+                    int temp=arr[i][j];
+                    arr[i][j]=arr[j][i];
                 }
             }
         }
