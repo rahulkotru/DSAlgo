@@ -10,6 +10,7 @@ class arrayTranspose{
                     arr[j][i]=temp;
                 }
             }
+            return arr;
         }
     }
     public static void main(String[] args){
