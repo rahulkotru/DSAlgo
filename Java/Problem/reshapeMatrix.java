@@ -19,6 +19,7 @@ class reshapeMatrix{
                     }
                 }
             }
+            return outputArr;
         }
     }
 }
