@@ -6,7 +6,8 @@ class reshapeMatrix{
 
             if(rows*cols!= r*c)return nums;
             int [][] outputArr= new int[r][c];
-            
+            int rowNum=0;
+            int colNum=0;
         }
     }
 }
