@@ -13,6 +13,9 @@ class reshapeMatrix{
                 for (int j=0;j<cols;j++){
                     outputArr[rowNum][colNum]=nums[i][j];
                     colNum++;
+                    if(colNum==c){
+                        colNum=0;
+                    }
                 }
             }
         }
