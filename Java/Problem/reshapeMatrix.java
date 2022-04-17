@@ -1,3 +1,5 @@
 class reshapeMatrix{
-
+    class Solution{
+        
+    }
 }
