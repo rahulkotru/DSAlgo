@@ -15,6 +15,7 @@ class reshapeMatrix{
                     colNum++;
                     if(colNum==c){
                         colNum=0;
+                        rowNum++;
                     }
                 }
             }
