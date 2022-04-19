@@ -17,6 +17,7 @@ class reverseString1{
                     str.append(s.charAt(i));
                 }
             }
+            return str.toString();
         }
     }
     public static void main(String[] args){
