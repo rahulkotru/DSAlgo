@@ -11,7 +11,10 @@ class reverseString1{
             StringBuilder str=new StringBuilder();
             for(int i=0;i<s.length();i++){
                 if(Character.isLetter(s.charAt(i))){
-                    
+                    str.append(letter.pop());
+                }
+                else{
+                    str.append(s.charAt(i));
                 }
             }
         }
