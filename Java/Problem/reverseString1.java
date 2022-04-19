@@ -8,6 +8,10 @@ class reverseString1{
                     letter.push(s.charAt(i));
                 }
             }
+            StringBuilder str=new StringBuilder();
+            for(int i=0;i<s.length();i++){
+                
+            }
         }
     }
     public static void main(String[] args){
