@@ -10,8 +10,10 @@ class sortList{
         public static ListNode sorted(ListNode head){
             if(head == null||head.next==null){
 
-                
+                return head;
             }
+            ListNode temp=head;
+            ListNode slow=head;
         }
     }
 }
