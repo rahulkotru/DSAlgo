@@ -8,7 +8,10 @@ class sortList{
     }
     class Solution{
         public static ListNode sorted(ListNode head){
-            
+            if(head == null||head.next==null){
+
+                
+            }
         }
     }
 }
