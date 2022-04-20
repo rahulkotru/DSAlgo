@@ -3,7 +3,7 @@ class sortList{
         int value;
         ListNode next;
         ListNode(int data){
-            
+            this.value = data;
         }
     }
 }
