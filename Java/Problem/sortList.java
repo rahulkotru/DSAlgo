@@ -6,4 +6,9 @@ class sortList{
             this.value = data;
         }
     }
+    class Solution{
+        public static ListNode sorted(ListNode head){
+            
+        }
+    }
 }
