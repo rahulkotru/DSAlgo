@@ -1,3 +1,5 @@
 class spiralTraversal{
-    
+    class Solution{
+        
+    }
 }
