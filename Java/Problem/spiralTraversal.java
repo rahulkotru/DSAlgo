@@ -7,7 +7,7 @@ class spiralTraversal{
             int rowBegin=0;
             int rowEnd=arr.length-1;
             int colBegin=0;
-            
+            int colEnd=arr[0].length-1;
     }
     public static void main(String[]){
 
