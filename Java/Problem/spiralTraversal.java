@@ -5,8 +5,7 @@ class spiralTraversal{
             if(arr.length==0) return res;
 
             int rowBegin=0;
-            
-        }
+            int rowEnd=arr.length-1;
     }
     public static void main(String[]){
 
