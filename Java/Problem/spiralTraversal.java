@@ -6,6 +6,8 @@ class spiralTraversal{
 
             int rowBegin=0;
             int rowEnd=arr.length-1;
+            int colBegin=0;
+            
     }
     public static void main(String[]){
 
