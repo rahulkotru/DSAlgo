@@ -22,7 +22,7 @@ class binaryTreeRightOnly{
                     TreeNode currentNode=queue.poll();
                     if(i==0) res.add(currentNode.val);
                     if(currentNode.right!=null) queue.offer(currentNode.right);
-                    if(currentNode.left!=null) queue
+                    if(currentNode.left!=null) queue.offer(currentNode.left);
                 }
             }
         }
