@@ -17,7 +17,11 @@ class binaryTreeRightOnly{
             }
             queue.offer(root);
             while(!queue.isEmpty()){
-                
+                int size=queue.size();
+                for(int i=0;i<size;i++){
+                    TreeNode currentNode=queue.poll();
+                    
+                }
             }
         }
     }
