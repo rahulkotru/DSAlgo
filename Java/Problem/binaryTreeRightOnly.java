@@ -1,12 +1,13 @@
 class binaryTreeRightOnly{
-    class TreeNode{
+    public class TreeNode{
         TreeNode left;
         TreeNode right;
         int data;
-        TreeNode(int val{
+        TreeNode(int val){
             this.data = val;
         }
     }
+
     class Solution {
 
     }
