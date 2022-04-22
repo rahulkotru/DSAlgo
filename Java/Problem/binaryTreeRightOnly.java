@@ -12,6 +12,13 @@ class binaryTreeRightOnly{
         public List<Integer> rightSideTraversal(TreeNode root){
             List<Integer> res=new ArrayList<Integer>();
             Queue<TreeNode> queue=new LinkedList();
+            if(root==null){
+                return res;
+            }
+            queue.offer(root);
+            while(!queue.isEmpty()){
+                
+            }
         }
     }
 }
