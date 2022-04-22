@@ -9,6 +9,8 @@ class binaryTreeRightOnly{
     }
 
     class Solution {
-
+        public List<Integer> rightSideTraversal(TreeNode root){
+            
+        }
     }
 }
