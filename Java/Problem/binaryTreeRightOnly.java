@@ -1,5 +1,8 @@
 class binaryTreeRightOnly{
-    class Solution {
+    class TreeNode{
         
+    }
+    class Solution {
+
     }
 }
