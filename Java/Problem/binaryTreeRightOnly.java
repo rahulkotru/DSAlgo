@@ -10,7 +10,8 @@ class binaryTreeRightOnly{
 
     class Solution {
         public List<Integer> rightSideTraversal(TreeNode root){
-            
+            List<Integer> res=new ArrayList<Integer>();
+            Queue<TreeNode> queue=new LinkedList();
         }
     }
 }
