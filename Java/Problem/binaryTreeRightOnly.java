@@ -20,7 +20,9 @@ class binaryTreeRightOnly{
                 int size=queue.size();
                 for(int i=0;i<size;i++){
                     TreeNode currentNode=queue.poll();
-                    
+                    if(i==0) res.add(currentNode.val);
+                    if(currentNode.right!=null) queue.offer(currentNode.right);
+                    if(currentNode.left!=null) queue
                 }
             }
         }
