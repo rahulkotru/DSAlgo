@@ -6,6 +6,9 @@ spiralMatrix2{
             int rowEnd=n-1;
             int colBeg=0;
             int colEnd=n-1;
+            while(rowBeg<=rowEnd &&colBeg<=colEnd){
+                
+            }
         }
     }
     public static void main(String[] ){
