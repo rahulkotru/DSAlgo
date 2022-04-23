@@ -25,6 +25,8 @@ class binaryTreeRightOnly{
                     if(currentNode.left!=null) queue.offer(currentNode.left);
                 }
             }
+            return res;
         }
+
     }
 }
