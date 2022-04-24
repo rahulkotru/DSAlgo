@@ -1,3 +1,5 @@
 class uniqueEmail{
-
+    class Solution {
+        
+    }
 }
