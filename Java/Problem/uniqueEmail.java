@@ -12,6 +12,8 @@ class uniqueEmail{
                     localeName=localeName.substring(0,plusIndex);
                 }
                 localeName=localeName.replaceAll("\\.","");
+                String newName=localeName+domainName;
+                uniqueMail.add(newName);
             }
         }
     }
