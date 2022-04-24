@@ -11,6 +11,7 @@ class uniqueEmail{
                     int plusIndex=localeName.indexOf("+");
                     localeName=localeName.substring(0,plusIndex);
                 }
+                localeName=localeName.replaceAll("\\.","");
             }
         }
     }
