@@ -1,3 +1,3 @@
-class uniqueName{
-    
+class uniqueEmail{
+
 }
