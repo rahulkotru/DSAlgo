@@ -15,6 +15,7 @@ class uniqueEmail{
                 String newName=localeName+domainName;
                 uniqueMail.add(newName);
             }
+            return uniqueMail.size();
         }
     }
     public static void main(String[]args){
