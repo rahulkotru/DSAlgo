@@ -6,6 +6,11 @@ class uniqueEmail{
                 int splitPosition =email.indexOf("@");
                 String localeName=email.substring(0,splitPosition);
                 String domainName=email.substring(splitPosition);
+
+                if(localeName.contains("+")){
+                    int plusIndex=localeName.indexOf("+");
+                    localeName=localeName.substring(0,plusIndex);
+                }
             }
         }
     }
