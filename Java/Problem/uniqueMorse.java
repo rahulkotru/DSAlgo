@@ -4,7 +4,7 @@ class uniqueMorse{
             HashSet<String> uniqueCodes=new HashSet();
             String Morse[]=new String[]{""};
             for (word :words){
-                S
+                StringBuilder transformation=new StringBuilder();
             }
         }
     }
