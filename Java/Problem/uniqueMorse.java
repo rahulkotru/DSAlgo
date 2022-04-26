@@ -1,3 +1,5 @@
 class uniqueMorse{
-    
+    class Solution {
+        
+    }
 }
