@@ -1,3 +1,8 @@
 class singleNumber{
-    public static void main(String args[]){}
+    class Solution{
+        
+    }
+    public static void main(String args[]){
+
+    }
 }
