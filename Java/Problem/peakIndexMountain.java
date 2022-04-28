@@ -13,6 +13,7 @@ class peakIndexMountain{
                     right=midPoint;
                 }
             }
+            return left;
         }
     }
     public static void main(String args[]){
