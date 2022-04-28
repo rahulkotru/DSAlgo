@@ -9,6 +9,9 @@ class peakIndexMountain{
                 if(A[midPoint]<A[midPoint+1]){
                     left=midPoint+1;
                 }
+                else{
+                    right=midPoint;
+                }
             }
         }
     }
