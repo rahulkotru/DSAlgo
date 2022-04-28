@@ -7,7 +7,7 @@ class peakIndexMountain{
             while(left<right){
                 int midPoint=left-(right-left)/2;
                 if(A[midPoint]<A[midPoint+1]){
-                    
+                    left=midPoint+1;
                 }
             }
         }
