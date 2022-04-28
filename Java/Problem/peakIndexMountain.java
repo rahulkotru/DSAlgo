@@ -1,3 +1,5 @@
 class peakIndexMountain{
-    
+    class Solution{
+        
+    }
 }
