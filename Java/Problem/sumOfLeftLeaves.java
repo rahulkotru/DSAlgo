@@ -11,8 +11,10 @@ class sumOfLeftLeaves{
     class Solution{
         public static int sumOfLeft(TreeNode root){
             if(root== null) return 0;
-
         }
-        
+        int sumOfLeftLeave=0;
+        if(root.left.left==null&&root.left.right==null){
+            sumOfLeftLeave+=root.left.val;
+        }
     }
 }
