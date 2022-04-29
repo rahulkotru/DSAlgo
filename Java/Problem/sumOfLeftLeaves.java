@@ -15,6 +15,9 @@ class sumOfLeftLeaves{
         int sumOfLeftLeave=0;
         if(root.left.left==null&&root.left.right==null){
             sumOfLeftLeave+=root.left.val;
+        }(
+        else{
+            sumOfLeftLeave+=sumOfLeft(root.left))
         }
     }
 }
