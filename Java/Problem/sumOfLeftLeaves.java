@@ -10,7 +10,9 @@ class sumOfLeftLeaves{
     }
     class Solution{
         public static int sumOfLeft(TreeNode root){
-            
+            if(root== null) return 0;
+
         }
+        
     }
 }
