@@ -6,5 +6,9 @@ class sumOfLeftLeaves{
         TreeNode(int val){
             this.data = val;
         }
+
+    }
+    class Solution{
+        
     }
 }
