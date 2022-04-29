@@ -21,7 +21,7 @@ class sumOfLeftLeaves{
         }
         if(root.right!=null){
             if(root.right.left!=null|| root.right.right!=null){
-                
+                sumOfLeftLeave+=sumOfLeft(root.right);
             }
         }
     }
