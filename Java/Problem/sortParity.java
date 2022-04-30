@@ -8,7 +8,9 @@ class sortParity{
                     newArr[counter]=A[i];
                     counter++;
                 }
-
+            }
+            for(int j=0;i<A.length;j++){
+                
             }
         }
     }
