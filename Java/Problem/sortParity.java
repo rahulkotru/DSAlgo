@@ -10,7 +10,9 @@ class sortParity{
                 }
             }
             for(int j=0;i<A.length;j++){
-                
+                if(A[i]%2==1){
+                    newArr[counter]=A[i];
+                }
             }
         }
     }
