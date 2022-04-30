@@ -5,7 +5,7 @@ class sortParity{
             int counter=0;
             for (int i=0;i<A.length;i++){
                 if(A[i]%2==0){
-                    
+                    newArr[counter]=A[i];
                 }
 
             }
