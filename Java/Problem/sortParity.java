@@ -11,9 +11,11 @@ class sortParity{
             }
             for(int j=0;i<A.length;j++){
                 if(A[i]%2==1){
-                    newArr[counter]=A[i];
+                    newArr[counter]=A[j];
+                    counter++;
                 }
             }
+            return newArr;
         }
     }
     public static void main(String[] args){
