@@ -6,6 +6,7 @@ class sortParity{
             for (int i=0;i<A.length;i++){
                 if(A[i]%2==0){
                     newArr[counter]=A[i];
+                    counter++;
                 }
 
             }
