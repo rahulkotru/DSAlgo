@@ -1,3 +1,5 @@
 class selfDivide{
-    
+    class Solution{
+        
+    }
 }
