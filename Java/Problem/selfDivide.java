@@ -10,7 +10,9 @@ class selfDivide{
             return selfDivisionNums;        
         }
         public boolean isSelfDividing(int num){
-            
+            for(char c:String.valueOf(num).toCharArray()){
+                
+            }
         }
     }
     public static void main(String [] args){
