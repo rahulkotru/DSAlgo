@@ -9,6 +9,9 @@ class selfDivide{
             }   
             return selfDivisionNums;        
         }
+        public boolean isSelfDividing(int num){
+            
+        }
     }
     public static void main(String [] args){
 
