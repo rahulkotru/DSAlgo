@@ -9,7 +9,7 @@ class wordSubset{
                 int[] charFreq=wordFreq(currentWord);
             }
             for(int j=0;j<26;j++){
-                
+                maxBFreq[j]=Math.max(maxBFreq[j],wordFreq[j]);
             }
         }
         public int wordFreq(String S){
