@@ -1,3 +1,5 @@
 class wordSubset{
-    
+    class Solution {
+        
+    }
 }
