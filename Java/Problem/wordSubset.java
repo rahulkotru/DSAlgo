@@ -4,7 +4,7 @@ class wordSubset{
             List<String> result=new ArrayList();
 
             for(int i=0;i<B.length;i++){
-                
+                String currentWord=B[i];
             }
         }
         public int qordFreq(String S){
