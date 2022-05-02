@@ -6,7 +6,9 @@ class wordSubset{
         }
         public int qordFreq(String S){
             int [] result=new int[26];
-            for()
+            for(char c:S.toCharArray()){
+                result[c-'a']++;
+            }
         }
     }
     public static void main(String [] args){
