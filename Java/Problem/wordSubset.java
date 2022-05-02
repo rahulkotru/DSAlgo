@@ -5,7 +5,7 @@ class wordSubset{
 
             for(int i=0;i<B.length;i++){
                 String currentWord=B[i];
-                int[] charFreq=wordFreq
+                int[] charFreq=wordFreq(currentWord);
             }
         }
         public int wordFreq(String S){
