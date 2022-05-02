@@ -3,6 +3,9 @@ class wordSubset{
         public List<String> words(String [] A, String [] B){
             List<String> result=new ArrayList();
 
+            for(int i=0;i<B.length;i++){
+                
+            }
         }
         public int qordFreq(String S){
             int [] result=new int[26];
