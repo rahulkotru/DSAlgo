@@ -1,3 +1,5 @@
 class arrayPartition{
-    
+    class Solution{
+        
+    }
 }
