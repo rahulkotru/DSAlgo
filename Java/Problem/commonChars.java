@@ -6,7 +6,9 @@ class commonChars{
             Arrays.fill(minFreq,Integer.MAX_VALUE);
             for (String current: arr){
                 int [] minFreq=new int[26];
-                
+                for (char c: current.toCharArray()){
+                    
+                }
             }
         }
     }
