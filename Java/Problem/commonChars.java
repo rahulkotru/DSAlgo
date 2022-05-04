@@ -1,3 +1,5 @@
 class commonChars{
-    
+    class Solution{
+        
+    }
 }
