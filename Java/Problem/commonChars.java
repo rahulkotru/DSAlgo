@@ -10,7 +10,7 @@ class commonChars{
                     charFreq[c-'a']++;
                 }
                 for(int i=0;i<26;i++){
-                    
+                    minFreq[i]=Math.min(minFreq[i],charFreq[i]);
                 }
             }
         }
