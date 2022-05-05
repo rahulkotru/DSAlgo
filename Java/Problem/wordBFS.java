@@ -1,3 +1,5 @@
 class wordBFS{
-    
+    class Solution{
+        
+    }
 }
