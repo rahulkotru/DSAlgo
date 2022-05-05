@@ -9,7 +9,8 @@ class wordBFS{
                 return 0;
             }
             Queue <String> queue =new LinkedList();
-            
+            queue.add(begin);
+            int level=1;
         }
     }
     public static void main(String args[]){
