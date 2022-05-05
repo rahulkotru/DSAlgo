@@ -5,7 +5,11 @@ class wordBFS{
             for(String word: bagOWords){
                 set.add(word);
             }
-            if()
+            if(!set.contains(end)){
+                return 0;
+            }
+            Queue <String> queue =new LinkedList();
+            
         }
     }
     public static void main(String args[]){
