@@ -11,6 +11,9 @@ class wordBFS{
             Queue <String> queue =new LinkedList();
             queue.add(begin);
             int level=1;
+            while(!queue.isEmpty()){
+                int size-queue.size;
+            }
         }
     }
     public static void main(String args[]){
