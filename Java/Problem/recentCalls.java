@@ -5,7 +5,7 @@ class recentCalls{
 
         }
         public int ping(int t){
-
+            queue.add(t);
         }
     }
     public static void main(String args[]){
