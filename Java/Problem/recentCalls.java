@@ -1,4 +1,5 @@
 class recentCalls{
+    Queue <Integer> queue;
     class Solution{
         public Solution(){
 
