@@ -1,3 +1,5 @@
 class recentCalls{
-    
+    class Solution{
+        
+    }
 }
