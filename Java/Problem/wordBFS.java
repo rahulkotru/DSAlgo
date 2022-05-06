@@ -12,7 +12,12 @@ class wordBFS{
             queue.add(begin);
             int level=1;
             while(!queue.isEmpty()){
-                int size-queue.size;
+                int size=queue.size;
+                for(int i=0;i<size;i++){
+                    String current=queue.poll();
+                    char [] wordChars=current.toCharArray();
+                    for(int j=0;i<words)
+                }
             }
         }
     }
