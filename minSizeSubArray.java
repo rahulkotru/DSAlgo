@@ -4,7 +4,9 @@ class minSizeSubArray{
             int left=0;
             int result=Integer.MAX_VALUE;
             int valSum=0;
-            for(int)
+            for(int i=0;i<nums.length;i++){
+                
+            }
         }
     }
     public static void main(String args[]){
