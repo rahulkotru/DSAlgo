@@ -8,7 +8,7 @@ class minSizeSubArray{
                 valSum+=nums[i];
 
                 while(valSum>=s){
-                    
+                    result=Math.min(result,i+1-left);
                 }
             }
         }
