@@ -5,7 +5,11 @@ class minSizeSubArray{
             int result=Integer.MAX_VALUE;
             int valSum=0;
             for(int i=0;i<nums.length;i++){
-                
+                valSum+=nums[i];
+
+                while(valSum>=s){
+                    
+                }
             }
         }
     }
