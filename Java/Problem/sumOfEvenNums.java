@@ -4,7 +4,9 @@ class sumOfEvenNums{
             int [] results=new int[A.length];
             int currentSum=0;
             while(counter<results.length){
-                
+                for(int i=0;i<A.length;i++){
+                    
+                }
             }
         }
     }
