@@ -3,7 +3,9 @@ class sumOfEvenNums{
         public int[] sumEven(int[] A, int [][] queries){
             int [] results=new int[A.length];
             int currentSum=0;
-            
+            while(counter<results.length){
+                
+            }
         }
     }
     public static void main(String args[]){
