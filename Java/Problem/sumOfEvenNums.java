@@ -1,3 +1,5 @@
 class sumOfEvenNums{
-    
+    class Solution{
+        
+    }
 }
