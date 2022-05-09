@@ -4,6 +4,11 @@ class sumParityArray{
             int i=0;
             int j=1;
             int len=A.length;
+            while(i<n&& j<n){
+                while(i<n&&A[i]%%2==0){
+                    
+                }
+            }
         }
     }
     public static void main(String[] args){
