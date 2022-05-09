@@ -11,7 +11,13 @@ class sumParityArray{
                 while(j<n&& A[j]%2==1){
                     j+=2;
                 }
+                if(i <n && j<n){
+                    int temp=A[i];
+                    A[i]=A[j];
+                    A[j]=temp;
+                }
             }
+            return A;
         }
     }
     public static void main(String[] args){
