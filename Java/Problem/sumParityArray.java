@@ -6,7 +6,7 @@ class sumParityArray{
             int len=A.length;
             while(i<n&& j<n){
                 while(i<n&&A[i]%%2==0){
-                    
+                    i+=2;
                 }
             }
         }
