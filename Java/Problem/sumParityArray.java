@@ -1,3 +1,5 @@
 class sumParityArray{
-    
+    class Solution{
+        
+    }
 }
