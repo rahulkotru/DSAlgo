@@ -8,7 +8,7 @@ class maxProfit{
                     minValue=prices[i];
                 }
                 else if(prices[i]-minValue>maxProf){
-                    
+                    maxProf=prices[i]-minValue;
                 }
             }
         }
