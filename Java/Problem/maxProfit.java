@@ -11,6 +11,7 @@ class maxProfit{
                     maxProf=prices[i]-minValue;
                 }
             }
+            return maxProf;
         }
     }
     public static void main(String[] args){
