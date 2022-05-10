@@ -5,7 +5,7 @@ class maxProfit{
             int maxProf=0;
             for (int i=0;i<prices.length;i++){
                 if(prices[i]>minValue){
-                    
+                    minValue=prices[i];
                 }
             }
         }
