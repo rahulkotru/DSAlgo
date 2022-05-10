@@ -1,3 +1,5 @@
 class maxProfit{
-    
+    class Solution{
+        
+    }
 }
