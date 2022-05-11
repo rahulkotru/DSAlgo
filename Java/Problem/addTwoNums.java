@@ -18,6 +18,7 @@ class addTwoNums{
             while(l1!=null||l2!=null){
                 int l1Val= (l1.data!=null)? l1.data:0;
                 int l2Va=(l2.data!=null)? l2.data:0;
+                int currentSum=l1Val+l2Val;
             }
         }
     }
