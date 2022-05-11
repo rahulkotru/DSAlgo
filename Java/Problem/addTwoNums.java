@@ -14,7 +14,11 @@ class addTwoNums{
             if(l2.next==null){
                 return l1;
             }
-            
+            ListNode dummy=next;
+            while(l1!=null||l2!=null){
+                int l1Val= (l1.data!=null)? l1.data:0;
+                
+            }
         }
     }
     public static void main(String args[]){
