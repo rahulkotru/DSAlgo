@@ -1,3 +1,5 @@
 class addTwoNums{
-    
+    class Solution{
+        
+    }
 }
