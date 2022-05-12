@@ -11,14 +11,16 @@ class search2DMatrix{
 
             while(left<=right){
                 int midpoint=left-(right-left)/2;
-                int midpointElement=matrix[];
+                int midpointElement=matrix[midpoint/cols][midpoint%cols];
                 if(matrix[midpoint]==target){
                     return true;
                 }
                 else if(target<matrix[midpoint]){
                     right=midpoint-1;
                 }
-                else if(target>matrix.length)
+                else if(target>matrix.length){
+                    left=midpoint+1;
+                }
             }
         }
     }
