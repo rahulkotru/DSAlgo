@@ -6,6 +6,8 @@ class search2DMatrix{
             }
             int rows=matrix.length;
             int cols=matrix[0].length;
+            int left=0;
+            int right=rows*cols-1;
         }
     }
     public static void main(String args[]){
