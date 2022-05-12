@@ -4,6 +4,8 @@ class search2DMatrix{
             if(matrix.length==0){
                 return false;
             }
+            int rows=matrix.length;
+            int cols=matrix[0].length;
         }
     }
     public static void main(String args[]){
