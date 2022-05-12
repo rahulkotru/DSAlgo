@@ -10,7 +10,7 @@ class search2DMatrix{
             int right=rows*cols-1;
 
             while(left<=right){
-                
+                int midpoint=left-(right-left)/2;
             }
         }
     }
