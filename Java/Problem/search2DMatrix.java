@@ -8,6 +8,10 @@ class search2DMatrix{
             int cols=matrix[0].length;
             int left=0;
             int right=rows*cols-1;
+
+            while(left<=right){
+                
+            }
         }
     }
     public static void main(String args[]){
