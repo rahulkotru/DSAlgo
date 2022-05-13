@@ -1,7 +1,8 @@
 class removeKDigits{
     class Solution{
         public String removeDigits(String nums, int k){
-            
+            int size=nums.length;
+            if(k==size) return '0';
         }
 
     }
