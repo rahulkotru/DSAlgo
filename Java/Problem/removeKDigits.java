@@ -20,8 +20,10 @@ class removeKDigits{
             }
             StringBuilder sb=new StringBuilder();
             while(!stack.isEmpty()){
-                
+                char currentChar=stack.pop();
+                sb.append(currentChar);
             }
+            sb.reverse();
         }
 
     }
