@@ -18,6 +18,10 @@ class removeKDigits{
                 stack.pop();
                 k--;
             }
+            StringBuilder sb=new StringBuilder();
+            while(!stack.isEmpty()){
+                
+            }
         }
 
     }
