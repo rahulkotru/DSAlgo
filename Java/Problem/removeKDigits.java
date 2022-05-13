@@ -24,6 +24,10 @@ class removeKDigits{
                 sb.append(currentChar);
             }
             sb.reverse();
+            while(sb.length()>1 && sb.charAt(0)=='0'){
+                sb.deleteCharAt(0);
+            }
+            return sb.toString();
         }
 
     }
