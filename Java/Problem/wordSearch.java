@@ -10,6 +10,10 @@ class wordSearch{
                     }
                 }
             }
+            return false;
+        }
+        public boolean searchWord(int i, int j, int index, String word, char[][] board){
+            visited[i][j]=true;
         }
     }
     public static void main(String[] args){
