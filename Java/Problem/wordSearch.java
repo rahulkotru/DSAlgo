@@ -17,6 +17,8 @@ class wordSearch{
             if(searchWord(i+1,j,index+1,word,board))||searchWord(i+1,j,index+1,word,board)||searchWord(i+1,j,index+1,word,board)||searchWord(i+1,j,index+1,word,board)||searchWord(i+1,j,index+1,word,board)){
                 return true;
                 }
+                visited[i][j]=false;
+                return false;
         }
     }
     public static void main(String[] args){
