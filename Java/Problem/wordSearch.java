@@ -14,6 +14,9 @@ class wordSearch{
         }
         public boolean searchWord(int i, int j, int index, String word, char[][] board){
             visited[i][j]=true;
+            if(searchWord(i+1,j,index+1,word,board))||searchWord(i+1,j,index+1,word,board)||searchWord(i+1,j,index+1,word,board)||searchWord(i+1,j,index+1,word,board)||searchWord(i+1,j,index+1,word,board)){
+                return true;
+                }
         }
     }
     public static void main(String[] args){
