@@ -4,7 +4,9 @@ class longestSubArrayPalindrome{
             if(S==null||s.length()<1) return "";
             int start=0;
             int end=0;
-            
+            for(int i=0;i<s.length();i++){
+                
+            }
         }
     }
-}
+}s
