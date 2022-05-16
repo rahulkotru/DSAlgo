@@ -9,7 +9,8 @@ class removeDuplicate{
                     i--;
                 }
                 else{
-                    
+                    stack[i]=currentChar;
+                    i+=1;
                 }
             }
         }
