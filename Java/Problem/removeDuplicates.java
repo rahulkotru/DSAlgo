@@ -13,6 +13,7 @@ class removeDuplicate{
                     i+=1;
                 }
             }
+            return new String(stack,0)
         }
     }
     public static void main(String[] args){
