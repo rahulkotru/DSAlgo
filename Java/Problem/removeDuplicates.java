@@ -6,6 +6,9 @@ class removeDuplicate{
             for(int j=0;j<s.length();j++){
                 char currentChar=s.charAt(j);
                 if(i>0&& stack[i-1]==currentChar){
+                    i--;
+                }
+                else{
                     
                 }
             }
