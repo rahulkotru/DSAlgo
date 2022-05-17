@@ -4,7 +4,7 @@ class countChars{
             int goodWordLengthSum=0;
             int [] charCount=new int[26];
             for (char c: chars.toCharArray()){
-                
+                charCount[c-'a']++;
             }
         }
     }
