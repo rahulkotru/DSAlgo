@@ -1,3 +1,5 @@
 class countChars{
-    
+    class Solution{
+        
+    }
 }
