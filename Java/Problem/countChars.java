@@ -6,6 +6,7 @@ class countChars{
             for (char c: chars.toCharArray()){
                 charCount[c-'a']++;
             }
+            return goodWordLengthSum;
         }
     }
     public static void main(String args[]){
