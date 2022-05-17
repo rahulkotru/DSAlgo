@@ -7,6 +7,10 @@ class countChars{
                 charCount[c-'a']++;
             }for(String word : words){
                 int[] tempChar=Arrays.copyOf(charCount,CharCount.length());
+                int validCharCount=0;
+                for(char c: word.toCharArray()){
+                    
+                }
             }
 
             return goodWordLengthSum;
