@@ -11,7 +11,7 @@ class islandPerimeter{
 
                 }
                 if(i>0&& grid[i-1][j]==1){
-                    
+                    result-=2;
                 }
             }
         }
