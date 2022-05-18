@@ -8,6 +8,9 @@ class islandPerimeter{
             for(int i=0; i<grid.length;i++){
                 for(int j=0;j<grid.length;j++){
                     result+=4;
+
+                }
+                if(i>0&& grid[i-1][j]==1){
                     
                 }
             }
