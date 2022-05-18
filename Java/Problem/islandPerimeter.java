@@ -1,3 +1,5 @@
 class islandPerimeter{
-    
+    class Solution{
+        
+    }
 }
