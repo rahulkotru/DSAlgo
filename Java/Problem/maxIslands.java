@@ -1,3 +1,5 @@
 class maxIslands{
-    
+    class Solution{
+        
+    }
 }
