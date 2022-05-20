@@ -7,6 +7,10 @@ class maxIslands{
                 if(nums[i]==1){
                     currentMax+=1;
                     max=Math.max(max,currentMax);
+                    
+                }
+                else{
+                    currentMax=0;
                 }
             }
         }
