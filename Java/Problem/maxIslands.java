@@ -6,7 +6,7 @@ class maxIslands{
             for(int i=0;i<nums.length;i++){
                 if(nums[i]==1){
                     currentMax+=1;
-                    
+                    max=Math.max(max,currentMax);
                 }
             }
         }
