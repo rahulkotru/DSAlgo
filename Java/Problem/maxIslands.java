@@ -13,6 +13,7 @@ class maxIslands{
                     currentMax=0;
                 }
             }
+            return max;
         }
     }
     public static void main(String[] args){
