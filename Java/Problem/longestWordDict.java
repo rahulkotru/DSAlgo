@@ -5,7 +5,9 @@ class longestWordDict{
             HashSet<String> builtWords=new HashSet();
             String results="";
             for(String w: words){
-                
+                if(w.length()==builtWords.contains(w.substring(0,w.length()-1))){
+                    
+                }
             }
         }
     }
