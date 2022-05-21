@@ -1,6 +1,7 @@
 class longestWordDict{
     class Solution {
         public String longestWord(String[] words){
+            Arrays.sort(words);
             
         }
     }
