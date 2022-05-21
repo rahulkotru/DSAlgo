@@ -6,9 +6,10 @@ class longestWordDict{
             String results="";
             for(String w: words){
                 if(w.length()==builtWords.contains(w.substring(0,w.length()-1))){
-                    
+                    if(w.length()>result.length()) result=w;
                 }
             }
+            return result;
         }
     }
     public static void main(String[] args){
