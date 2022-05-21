@@ -1,3 +1,5 @@
 class longestWordDict{
-    
+    class Solution {
+            
+    }
 }
