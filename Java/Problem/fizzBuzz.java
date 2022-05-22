@@ -16,6 +16,9 @@ class fizzBuzz{
                     fizz=0;
                     outputArr.add("Fizz");
                 }
+                else if(buzz==5){
+                    outputArr.add("Buzz");
+                }
             }
         }
 
