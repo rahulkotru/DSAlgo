@@ -7,6 +7,7 @@ class keySize{
             for(int i=S.length()-k;i>0;i=i-k){
                 sb.insert(i,"-");
             }
+            return sb.toString();
         }
     }
     public static void main(String[] args){
