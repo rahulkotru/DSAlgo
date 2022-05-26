@@ -4,6 +4,9 @@ class keySize{
             key=key.toUpperCase();
             key=key.replaceAll("-"," ");
             StringBuilder sb=new StringBuilder();
+            for(int i=S.length()-k;i>0;i=i-k){
+                
+            }
         }
     }
     public static void main(String[] args){
