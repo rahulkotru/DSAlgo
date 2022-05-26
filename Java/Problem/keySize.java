@@ -1,3 +1,5 @@
 class keySize{
-    
+    class Solution {
+        
+    }
 }
