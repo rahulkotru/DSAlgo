@@ -5,6 +5,11 @@ class fruitOfTheLoom{
             int secondLast = -1;
             int lastFruitCount= 0;
             int currentMax=0;
+            for(Integer fruit:tree){
+                if (fruit==lastFruit|| fruit==secondLastFruit){
+                    
+                }
+            }
         }
     }
     public static void main(String [] args){
