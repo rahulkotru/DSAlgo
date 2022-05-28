@@ -1,3 +1,5 @@
 class fruitOfTheLoom{
-    
+    class Solution{
+        
+    }
 }
