@@ -3,7 +3,8 @@ class fruitOfTheLoom{
         public int totalFruit(int[] tree){
             int lastFruit = -1;
             int secondLast = -1;
-            int lastFruitCount=
+            int lastFruitCount= 0;
+            
         }
     }
     public static void main(String [] args){
