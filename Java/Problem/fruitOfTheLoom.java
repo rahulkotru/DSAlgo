@@ -7,7 +7,13 @@ class fruitOfTheLoom{
             int currentMax=0;
             for(Integer fruit:tree){
                 if (fruit==lastFruit|| fruit==secondLastFruit){
-                    
+                    currentMax+=1;
+                }
+                else{
+                    currentMax=lastFruitCount+1;
+                }
+                if(fruit==lastFruit){
+                    lastFruitCount+=1;
                 }
             }
         }
