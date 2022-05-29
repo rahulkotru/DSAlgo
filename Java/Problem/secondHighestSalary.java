@@ -1,3 +1,5 @@
 class secondHighestSalary{
-    
+    class Solution {
+        
+    }
 }
