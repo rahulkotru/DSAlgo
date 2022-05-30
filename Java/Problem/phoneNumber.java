@@ -1,7 +1,8 @@
  class phoneNumber{
     class Solution{
         public List<String> letter(String digits){
-            Linked
+            LinkedList<String> outputArr= new LinkedList();
+            if(digits.length()==0) return outputArr;
         }
     } 
     public static void main(String[] args){
