@@ -1,3 +1,5 @@
  class phoneNumber{
-     
+    class Solution{
+        
+    } 
  }
