@@ -5,6 +5,9 @@
             if(digits.length()==0) return outputArr;
             outputArr.add("");
             String charMap= new String[];
+            for(inr i=0;i<digits.length();i++){
+                
+            }
         }   
     } 
     public static void main(String[] args){
