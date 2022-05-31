@@ -8,7 +8,8 @@ class reorderLinkedList{
     }
     class Solution {
         public void reorderList(ListNode head){
-
+            if(head==null || head.next==null) return ;
+            
         }
     }
     public static void main(String args[]){
