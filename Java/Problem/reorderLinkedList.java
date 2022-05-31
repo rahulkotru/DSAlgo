@@ -11,6 +11,8 @@ class reorderLinkedList{
             if(head==null || head.next==null) return ;
             ListNode l1= head;
             ListNode slow= head;
+            ListNode fast= head;
+            ListNode prev=null;
         }
     }
     public static void main(String args[]){
