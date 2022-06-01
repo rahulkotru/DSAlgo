@@ -12,4 +12,7 @@ class removeNNode{
 
         }
     }
+    public static void main(String[] args){
+        
+    }
 }
