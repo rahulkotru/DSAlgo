@@ -4,7 +4,10 @@ class removeNNode{
         ListNode next;
         ListNode(int x){
             this.val=x;
-            
+
         }
+    }
+    class Solution{
+        
     }
 }
