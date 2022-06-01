@@ -1,3 +1,5 @@
 class removeNNode{
-    
+    class ListNode{
+        
+    }
 }
