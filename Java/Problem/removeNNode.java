@@ -1,1 +1,3 @@
-class removeNNode
+class removeNNode{
+    
+}
