@@ -8,6 +8,8 @@ class removeNNode{
         }
     }
     class Solution{
-        
+        public ListNode removeNFromLast(ListNode list){
+            
+        }
     }
 }
