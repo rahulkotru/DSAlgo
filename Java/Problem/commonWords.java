@@ -4,7 +4,7 @@ class commonWords{
             HashSet<String> bannedWords= new HashSet();
             HashMap<String,Integer> validWords=new HashMap();
             for (String bannedWord: banned){
-                
+                bannedWords.put(bannedWord);
             }
         } 
     }
