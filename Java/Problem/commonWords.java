@@ -6,6 +6,7 @@ class commonWords{
             for (String bannedWord: banned){
                 bannedWords.put(bannedWord);
             }
+            String[] words=paragraph.toLowerCase().split("\\%");
         } 
     }
     public static void main(String[] args){
