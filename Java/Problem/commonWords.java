@@ -1,3 +1,5 @@
 class commonWords{
-    
+    class Solution {
+        
+    }
 }
