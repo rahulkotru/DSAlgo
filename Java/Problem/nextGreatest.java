@@ -1,3 +1,5 @@
 class nextGreatest{
-    
+    class Solution {
+        
+    }
 }
