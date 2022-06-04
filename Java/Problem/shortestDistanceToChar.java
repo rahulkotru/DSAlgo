@@ -1,3 +1,5 @@
 class shortestDistanceToChar{
-    
+    class Solution{
+        
+    }
 }
