@@ -6,7 +6,9 @@ class shortestDistanceToChar{
             int[] output = new int[n];
             int cPos=-n;
             
-            for(int)
+            for(int i=0;i<n;i++){
+                
+            }
         }
     }
     public static void main(String[] args){
