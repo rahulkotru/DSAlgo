@@ -1,3 +1,5 @@
 class longPressed{
-    
+    class Solution {
+        
+    }
 }
