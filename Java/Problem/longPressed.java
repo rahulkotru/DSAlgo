@@ -12,9 +12,11 @@ class longPressed{
                     i++;
                 }
                 else if(j==0||typed.charAt(j)!= typed.charAt(j-1)){
-                    
+                    return false;
                 }
+                j++;
             }
+            return i==name.length();
         }
     }
     public static void main(String[] args){
