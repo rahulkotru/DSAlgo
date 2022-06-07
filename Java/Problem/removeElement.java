@@ -7,9 +7,10 @@ class removeElement{
                 if(nums[i]!=val){
                     nums[validSize]=nums[i];
                     validSize++;
-                    
+
                 }
             }
+            return validSize;
         }
     }
     public static void main(String[] args){
