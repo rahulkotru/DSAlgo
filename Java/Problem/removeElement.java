@@ -1,3 +1,5 @@
 class removeElement{
-    
+    class Solution{
+        
+    }
 }
