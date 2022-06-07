@@ -6,6 +6,8 @@ class removeElement{
             for(int i=0;i<nums.length;i++){
                 if(nums[i]!=val){
                     nums[validSize]=nums[i];
+                    validSize++;
+                    
                 }
             }
         }
