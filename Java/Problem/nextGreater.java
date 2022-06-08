@@ -3,6 +3,7 @@ class nextGreater{
         ListNode next;
         int val;
         ListNode(int data){
+            this.val=data;
             
         }
     }
