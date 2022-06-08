@@ -8,7 +8,9 @@ class nextGreater{
         }
     }
     class Solution {
-        public int [] nextInLine()
+        public int [] nextInLine(ListNode head){
+            
+        }
     }
     public static void main(String[] args){
 
