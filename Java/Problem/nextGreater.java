@@ -1,3 +1,5 @@
 class nextGreater{
-    
+    class ListNode{
+        
+    }
 }
