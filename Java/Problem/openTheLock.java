@@ -1,3 +1,5 @@
 class openTheLock{
+    class Solution {
     
+    }
 }
