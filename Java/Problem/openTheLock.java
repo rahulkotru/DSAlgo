@@ -5,6 +5,7 @@ class openTheLock{
         HashSet<String> visited= new HashSet();
         visited.add("0000");
         Queue<String> queue = new LinkedList();
+        queue.offer("0000");
         
     }
     }
