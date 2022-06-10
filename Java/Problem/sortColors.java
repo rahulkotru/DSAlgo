@@ -5,6 +5,7 @@ class sortColors{
 
             int start =0;
             int end=nums.length-1;
+            int index=0;
             
         }
     }
