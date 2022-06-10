@@ -6,7 +6,9 @@ class sortColors{
             int start =0;
             int end=nums.length-1;
             int index=0;
-            
+            while(index<=end  && start<end){
+                
+            }
         }
     }
     public static void main(String[] args){
