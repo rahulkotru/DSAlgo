@@ -4,6 +4,7 @@ class sortColors{
             if(nums.length==0|| nums.length==1) return;
 
             int start =0;
+            int end=nums.length-1;
             
         }
     }
