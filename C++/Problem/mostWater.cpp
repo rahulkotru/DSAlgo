@@ -1,4 +1,7 @@
 # include<stdio.h>
-int main(String args){
+class Solution{
     
+}
+int main(String args){
+
 }
