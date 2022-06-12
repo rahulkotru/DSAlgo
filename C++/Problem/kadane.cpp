@@ -1,5 +1,5 @@
 #include <stdio.h>
-class kadane{
+class Solution{
     public:
     int sMax=0;
     int currentMax=0;
