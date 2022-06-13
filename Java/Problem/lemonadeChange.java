@@ -12,7 +12,11 @@ class lemonadeChange{
                     fives--;
                 }
                 else if(tens>0){
-                    
+                    ten--;
+                    fives--;
+                }
+                else{
+                    fives-=3;
                 }
             }
         }
