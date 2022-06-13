@@ -1,5 +1,8 @@
 class lemonadeChange{
-    public boolean lemonadeChange(int[] bills){
+    class Solution{
         
+    }
+    public boolean lemonadeChange(int[] bills){
+
     }
 }
