@@ -18,8 +18,10 @@ class lemonadeChange{
                 else{
                     fives-=3;
                 }
+                if (fives<0) return false;
             }
         }
+        return true;
     }
     
     public static void main(String[] args){
