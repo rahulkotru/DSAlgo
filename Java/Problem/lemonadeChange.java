@@ -4,7 +4,16 @@ class lemonadeChange{
             int fives=0;
             int tens=0;
             for(Integer bill :bills){
-                
+                if(bill==5){
+                    fives++;
+                }
+                else if(bill==10){
+                    ten++;
+                    fives--;
+                }
+                else if(tens>0){
+                    
+                }
             }
         }
     }
