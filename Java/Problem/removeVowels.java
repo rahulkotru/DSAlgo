@@ -1,6 +1,6 @@
 class removeVowels{
     class Solution{
-        public String remove(String S){
+        public static String remove(String S){
             if (S.equals("")) return "";
             return S.replaceAll("[aeiou]","");
         }
