@@ -4,7 +4,7 @@
 using namespace std;
 class Solution{
 public:
-vector<vector<string>> maop(){
+vector<vector<string>> maop(vector<string>& strs){
 
 }
 };
