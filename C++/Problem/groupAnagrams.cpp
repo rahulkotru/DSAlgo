@@ -2,3 +2,6 @@
 class Solution{
 
 };
+int main(){
+    
+}
