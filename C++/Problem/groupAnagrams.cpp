@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <vector>
+#include <string>
+using namespace std;
 class Solution{
 public:
-vector<vector<String>> maop(){
-    
+vector<vector<string>> maop(){
+
 }
 };
 int main(){
