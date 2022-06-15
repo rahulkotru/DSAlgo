@@ -4,8 +4,9 @@
 using namespace std;
 class Solution{
 public:
-vector<vector<string>> maop(vector<string>& strs){
-
+vector<vector<string>> maop(vector<string>& str){
+    if(str.size()==0)
+    return result;
 }
 };
 int main(){
