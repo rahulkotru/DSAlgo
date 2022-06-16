@@ -5,6 +5,7 @@ class smallestRange{
             int maxVal=A[i];
             for(int i=0;i<A.length;i++){
                 minVal=Math.min(minVal,A[i]);
+                maxVal=Math.max(maxVal,A[i]);
             }
         }
     }
