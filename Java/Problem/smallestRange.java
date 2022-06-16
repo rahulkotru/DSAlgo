@@ -7,6 +7,12 @@ class smallestRange{
                 minVal=Math.min(minVal,A[i]);
                 maxVal=Math.max(maxVal,A[i]);
             }
+            if(minVal+K >=maxVal-k){
+                return 0;
+            }
+            else{
+                return(maxVal-K)-(minVal+K);
+            }
         }
     }
     public static void main(String[] args){
