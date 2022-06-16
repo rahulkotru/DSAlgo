@@ -1,3 +1,5 @@
 class smallestRange{
-    
+    class Solution {
+        
+    }
 }
