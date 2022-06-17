@@ -1,3 +1,5 @@
 class longestRepeating{
-    
+    class Solution {
+        
+    }
 }
