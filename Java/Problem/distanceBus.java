@@ -1,3 +1,4 @@
 class distanceBus{
-    
+    class Solution {
+        }
 }
