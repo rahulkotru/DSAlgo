@@ -1,3 +1,5 @@
 class alienWorld{
-    
+    class Solution {
+        
+    }
 }
