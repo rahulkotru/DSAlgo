@@ -1,8 +1,11 @@
 #include <stdio.h>
 class Solution{
     public:
-    bool isHappy(int n){
+    int sumSquare(int num){
         
+    }
+    bool isHappy(int n){
+
     }
 };
 
