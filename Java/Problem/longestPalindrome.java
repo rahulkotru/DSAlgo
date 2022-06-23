@@ -1,3 +1,5 @@
 class longestPalindrome{
-    
+    class Solution {
+        
+    }
 }
