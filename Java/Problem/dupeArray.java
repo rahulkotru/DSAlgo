@@ -1,3 +1,5 @@
 class dupeArray{
-    
+    class Solution {
+        
+    }
 }
