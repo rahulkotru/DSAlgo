@@ -1,3 +1,5 @@
 class parenthesisGenerator{
-    
+    class Solution{
+        
+    }
 }
