@@ -1,6 +1,6 @@
 class commonPrefix{
     class Solution{
-        public String longest(String[] words){
+        public String longest(String[] strs){
 
         }
     }
