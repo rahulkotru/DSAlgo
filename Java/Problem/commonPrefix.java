@@ -1,3 +1,5 @@
 class commonPrefix{
-    class Solut
+    class Solution{
+        
+    }
 }
