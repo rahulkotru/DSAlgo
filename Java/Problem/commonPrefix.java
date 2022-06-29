@@ -2,5 +2,7 @@ class commonPrefix{
     class Solution{
 
     }
-    public static void main
+    public static void main(String[] args){
+        
+    }
 }
