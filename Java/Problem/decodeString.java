@@ -1,6 +1,6 @@
 class decodeString{
     class Solution{
-        public
+        public String
     }
     public static void main(String[] args){
 
