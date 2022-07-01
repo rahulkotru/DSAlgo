@@ -1,3 +1,5 @@
 class decodeString{
-    
+    class Solution{
+        
+    }
 }
