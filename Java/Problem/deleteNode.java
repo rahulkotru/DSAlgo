@@ -1,3 +1,5 @@
 class deleteNode{
-    
+    class Solution{
+        
+    }
 }
