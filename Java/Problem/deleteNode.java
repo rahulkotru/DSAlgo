@@ -1,5 +1,6 @@
 class deleteNode{
     class ListNode{
+        ListNode next;
         
     }
     class Solution{
