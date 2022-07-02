@@ -7,7 +7,9 @@ class deleteNode{
         }
     }
     class Solution{
-
+        public ListNode delete(ListNode head){
+            
+        }
     }
     public static void main(String args[]){
 
