@@ -5,7 +5,7 @@ class buddyStrings{
 
             List<Intger> diff=new ArrayList();
             for(int i=0; i<A.length();i++){
-                
+                if(A.charAt(i)==B.charAt(i))
             }
         }
     }
