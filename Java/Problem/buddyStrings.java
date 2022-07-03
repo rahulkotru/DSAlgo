@@ -1,3 +1,5 @@
 class buddyStrings{
-    
+    class Solution {
+        
+    }
 }
