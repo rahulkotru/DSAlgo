@@ -1,6 +1,8 @@
 class buddyStrings{
     class Solution {
-        public boolean
+        public boolean buddyString(String A, String B){
+            
+        }
     }
     public static void main(String[] args){
 
