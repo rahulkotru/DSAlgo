@@ -5,6 +5,7 @@ class productExceptSelf{
             int [] leftProds=new int[N];
             int [] rightProds=new int[N];
             int [] output=new int [N];
+            leftProds[0]=1;
         }
     }
     public static void main(String[] args){
