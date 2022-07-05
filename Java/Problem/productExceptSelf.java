@@ -1,3 +1,5 @@
 class productExceptSelf{
-    
+    class Solution{
+        
+    }
 }
