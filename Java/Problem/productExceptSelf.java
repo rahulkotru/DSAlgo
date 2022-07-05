@@ -2,6 +2,7 @@ class productExceptSelf{
     class Solution{
         public int[] product(int [] nums){
             int N= nums.length;
+            int [] leftProds=new int[N];
             
         }
     }
