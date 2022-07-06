@@ -1,3 +1,5 @@
 class rectangleOverlap{
-    
+    class Solution{
+        
+    }
 }
