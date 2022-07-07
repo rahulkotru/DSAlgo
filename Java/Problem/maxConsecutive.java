@@ -1,3 +1,5 @@
 class maxConsecutive{
-    
+    class Solution{
+        
+    }
 }
