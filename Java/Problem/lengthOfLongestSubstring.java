@@ -3,6 +3,7 @@ class lengthOfLengthSubstring{
         public int length(String S){
            int i=0; 
            int j=0;
+           int max =0;
         }
     }
     public static void main (String[] args){
