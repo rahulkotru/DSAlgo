@@ -1,3 +1,5 @@
 class lengthOfLengthSubstring{
-    
+    class Solution{
+        
+    }
 }
