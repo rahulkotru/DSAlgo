@@ -1,3 +1,5 @@
 class subarraySum{
-    
+    class Solution{
+        
+    }
 }
