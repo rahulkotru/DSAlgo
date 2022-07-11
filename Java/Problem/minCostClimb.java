@@ -1,3 +1,5 @@
 class minCostClimb{
-    
+    class Solution {
+        
+    }
 }
