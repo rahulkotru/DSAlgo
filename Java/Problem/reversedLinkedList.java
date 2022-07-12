@@ -3,7 +3,7 @@ class reversedLinkedList{
         ListNode head;
         int data;
         ListNode(int x){
-            
+            this.data=x;
         }
     }
     class Solution{
