@@ -1,6 +1,7 @@
 class reversedLinkedList{
     class ListNode{
         ListNode head;
+        int data;
     }
     class Solution{
 
