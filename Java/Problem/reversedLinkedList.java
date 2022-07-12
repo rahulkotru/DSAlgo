@@ -1,3 +1,5 @@
 class reversedLinkedList{
-    
+    class Solution{
+        
+    }
 }
