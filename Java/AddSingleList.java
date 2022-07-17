@@ -41,4 +41,3 @@ public class AddSingleList{
         x.head=new ListNode(9);
     }
 }
-1
