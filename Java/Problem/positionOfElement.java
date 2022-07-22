@@ -2,7 +2,9 @@ class positionOfElement{
     class ListNode{
         int data;
         ListNode head;
-        List
+        ListNode(int x){
+            this.data=x;
+        }
     }
     class Solution{
         public int [] searchRange(int[] nums,int target){
