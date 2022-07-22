@@ -1,3 +1,5 @@
 class positionOfElement{
-    
+    class Solution{
+            
+    }
 }
