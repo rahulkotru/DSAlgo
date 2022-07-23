@@ -1,3 +1,5 @@
 class goatLatin{
-    
+    class Solution{
+        
+    }
 }
