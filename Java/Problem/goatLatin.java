@@ -2,5 +2,7 @@ class goatLatin{
     class Solution{
 
     }
-    public static
+    public static void main(String[] args){
+        
+    }
 }
