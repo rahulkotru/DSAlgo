@@ -2,5 +2,7 @@ class preorderToInorder{
     class Solution{
 
     }
-    public static void 
+    public static void main(String[] args){
+        
+    }
 }
