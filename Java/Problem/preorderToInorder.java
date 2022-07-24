@@ -1,3 +1,5 @@
 class preorderToInorder{
-    
+    class Solution{
+        
+    }
 }
