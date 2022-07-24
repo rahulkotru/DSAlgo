@@ -7,7 +7,9 @@ class preorderToInorder{
         }
     }
     class Solution{
-
+        public static preorderToinorder(TreeNode head){
+            
+        }
     }
     public static void main(String[] args){
 
