@@ -8,7 +8,7 @@ class preorderToInorder{
     }
     class Solution{
         public static preorderToinorder(TreeNode head){
-            
+            return helper(0,0,inorder.length-1,preorder, inorder)
         }
     }
     public static void main(String[] args){
