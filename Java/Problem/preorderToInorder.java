@@ -15,4 +15,4 @@ class preorderToInorder{
 
     }
 }
-123456
+1234567
