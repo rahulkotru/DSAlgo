@@ -131,4 +131,4 @@ int main(){
     Sal.work();
     return 0;
 }
-123
+1234
