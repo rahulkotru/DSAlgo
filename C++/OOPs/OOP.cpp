@@ -95,7 +95,7 @@ class Teacher :public Employee{
     void work(){
         cout<<Name<<" is giving lecture on "<<subject<<"."<<endl;//Polymorphism
     }
-    };123456
+    };1234567
 int main(){
     Employee Phil=Employee("Phil","Tata",24);
     Employee E2;
