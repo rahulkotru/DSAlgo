@@ -28,7 +28,7 @@ public:
     Company=company;
     Age=age;
     }
-12345678
+123456789
     void giveIntro(){
         cout<<"Hi! My name is: "<<Name<<", I work at: "<<Company<<" and I am "<<Age<<" years old."<<endl;
     }
