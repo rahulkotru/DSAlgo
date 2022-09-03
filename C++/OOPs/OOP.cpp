@@ -28,7 +28,7 @@ public:
     Company=company;
     Age=age;
     }
-123456789
+
     void giveIntro(){
         cout<<"Hi! My name is: "<<Name<<", I work at: "<<Company<<" and I am "<<Age<<" years old."<<endl;
     }
@@ -51,7 +51,7 @@ public:
         cout<<"Age less than 18 is prohibited, setting default age at 18"<<endl;
         Age=18;
         
-    }1
+    }
     int getAge(){//Encapsulation
         return Age;
     }
