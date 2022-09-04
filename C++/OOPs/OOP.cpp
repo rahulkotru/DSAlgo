@@ -51,7 +51,7 @@ public:
         cout<<"Age less than 18 is prohibited, setting default age at 18"<<endl;
         Age=18;
         
-    }1234567
+    }12345678
     int getAge(){//Encapsulation
         return Age;
     }
